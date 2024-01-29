@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="74ryad3oTo8G" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
+<object id="3jkp3FYBZT43" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Application executable]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Archetype and acronym icons]]></stringProperty>
     <booleanProperty name="is-appendix" category="general" tooltip="property.is-appendix.tooltip">false</booleanProperty>
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
-    <child id="3mQA9BYwRxvw"/>
+    <child id="7tu66diumijc"/>
+    <child id="3J6TY6Ucbzqd"/>
   </children>
   <traces/>
 </object>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3mQA9BYwRxvw" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[App exe]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-29</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Proteus executable file is created using `PyInstaller`. Create the `Proteus.spec` file using the following command:
+
+- `pyinstaller --onefile -n "Proteus" --add-data "proteus.ini;." .\proteus\__main__.py`
+
+This command will also include `proteus.ini` file as dependency. Once the spec file is created, `archetypes` and `resources` directories must be added manually  editing the spec file. This is caused due to `data` field and `--add-data` argument ignore subdirectories structure, they just recollect information about files inside the given folder (not recursive). Modify the spec folder to add the following lines:
+
+```
+Tree('resources', prefix='resources'),
+Tree('archetypes', prefix='archetypes'),
+```
+
+These lines must be placed in:
+
+```
+...
+exe = EXE(
+    pyz,
+    a.scripts,
+    a.binaries,
+    Tree('resources', prefix='resources'),
+    Tree('archetypes', prefix='archetypes'),
+    a.zipfiles,
+    a.datas,
+    [],
+    name='Proteus',
+    debug=False,
+...
+```
+
+Once the spec file has been modified, execute the command `pyinstaller .\Proteus.spec` to apply the changes to the `exe` file.
+
+If you want to update the executable with new changes made in the codebase, If the spec file is already created you can skip all the steps and execute the last command `pyinstaller .\Proteus.spec`.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>
