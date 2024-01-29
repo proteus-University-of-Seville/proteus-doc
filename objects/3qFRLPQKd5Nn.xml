@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3qFRLPQKd5Nn" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Types]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[There are multiple possible properties types predefined by the system. These properties types may be combine in order to create an archetype according to your problem model. All property types share some attributes:
+
+- `name`: Property name, it is translated. Must be unique within the archetype.
+- `category`: Category where the property will be grouped in. It is translated. If not present, default category `general` will be used.
+- `tooltip`: It is shown when hovering over the property in the property dialog. It is translated. If not present, no tooltip will be added.
+- `inmutable`: Can be `true` or `false` to indicate if the property should be edited by the user. This does not prevent property manipulation but warns the user about it. If not present, default value is `false`.
+
+The property value and other additional attributes depends on the specific property type implementation. Here it is the actual Proteus property types list with examples and their special attributes/tags if any:
+
+]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="gESvXJcGgT2P" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[It was decided to create an abstract class **ProteusComponent**, which inherits from _QObject_. This class is in charge in its constructor of managing the basic dependencies of any component of the views (EventManager, StateManager, Controller, Translator, etc). All instances are optional since they areglobally accessed by their Singleton condition. Controller instance is retrieved from the parent if it also a **ProteusComponent**, if not it must be provided. The class provides a delete method, which is in charge of deleting other **ProteusComponent** children that the component may have.
+It contains the create component and subscribe methods so that they can be re-implemented by the subclass.
+
+It is recommended that components create different component update methods to respond to different application events (subscribe these methods to the corresponding events). It is also recommended that contructor be used to define important variables to the overall logic of the component and delegate the creation to auxiliary methods.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

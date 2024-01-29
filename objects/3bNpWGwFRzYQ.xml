@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3bNpWGwFRzYQ" classes="software-requirement use-case use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Display properties]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[The system displays the document properties for editing.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces/>
+</object>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6TFDnkuBSnuS" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Business logic layer overview]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-22</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Communicates with the data layer. Manage creation, modification, elimination and save actions of all element (objects and documents) inside a project. It also handles the request to the archetypes repository and generate HTML renders. Business logic is implementad in services and the model.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

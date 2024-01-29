@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6zDYCSsMYXCE" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Project]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-08</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[**Project** is stored in *proteus.xml* file. It contains a *project* tag with the *id* attribute. *Project* tag contains *properties* tag and *documents* that include information about the project properties and documents. The structure is very similar to the **object** XML file structure, It will be explained in detail.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
+    </traceProperty>
+  </traces>
+</object>

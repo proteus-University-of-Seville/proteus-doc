@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7ttRnkagycAJ" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Creation steps]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-24</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[- Create an empty folder. The name does not matter, it is recommended to use a name that makes easier to identify the archetype without checking folder files. This will be the archetype folder.
+
+- Inside the archetype folder, create an `objects` folder. This folder will contain all the XML files.
+
+- Inside the archetype folder, create an `assets` folder if needed. (See create archetype object for more information about assets).
+
+- Create the object XML file and its children. The object that will act as 'document' will have just `:Proteus-document` in its `classes` attribute. Document archetypes must have an stringProperty named `:Proteus-acronym` and stringProperty named `:Proteus-name`. If you need more information about file structure see how to create an object archetype sections above. Once all the XML files are created, place them inside the `objects` folder that was just created.
+
+- Inside the archetype folder, create a `document.xml` file. This file is a pointer to the document object inside the `objects` directory that we just created. It must contain a `<document id="documentobjectid"/>` tag where `id` is the identifier of the object with the `:Proteus-document` class. Example of `document.xml` file:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="7SvZwfdo5gPQ" />
+```
+
+- Acronym icon **OPTIONAL**. Acronym icon is defined by its stringProperty named `:Proteus-acronym` value. It will be updated when the property is updated in the application, you can add multiple acronym icons but the user will not know they can be set unless the user check the `icons.xml`. You can add icons using the following syntax `<icon key="DOC" file="doc-acronym-icon.png" />`, where key is the acronym string class and file is the file name/extension of the icon located in the repository icons directory. ]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

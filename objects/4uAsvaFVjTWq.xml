@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4uAsvaFVjTWq" classes="graphic-file" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Project management subsystem]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-18</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <fileProperty name="file" category="general"><![CDATA[UC-projects.png]]></fileProperty>
+    <integerProperty name="width" category="general">50</integerProperty>
+    <markdownProperty name="description" category="details"><![CDATA[Project management subsystem.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
+    </traceProperty>
+  </traces>
+</object>

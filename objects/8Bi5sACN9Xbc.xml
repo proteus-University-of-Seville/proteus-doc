@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="8Bi5sACN9Xbc" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Documents and objects]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-08</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[**Documents** and **Objects** are stored in the same directory (*objects*) following the same file structure and naming convention. The word 'element' will be use in order to explain both documents and objects file structure.
+
+The XML file is name after the unique identifier for the element. It contains an *object* tag with the following attributes:
+
+- 'id': Unique identifier of the element.
+- 'classes': Element classes. They are separated by space, the last class in the list is consider the main class of the element.
+- 'acceptedChildren': List of accepted children classes by the element.
+- 'acceptedParents': List of accepted parent classes by the element.
+
+In the *object* tag there are three tags, *properties*, *children* and *traces*.
+
+Inside *properties* each property type has its own tag. Every property has the following attributes:
+
+- 'name': Name of the property.
+- 'category': Category of the property.
+- 'inmutable' (optional): If true, the property should not be edited by the user.
+- 'tooltip' (optional): Property tooltip
+- Special properties like enum or code may have more attributed or additional nested tags.
+
+*Children* tag contains the children of the objects. There are a *child* tag that contains the *id* attribute for each child.
+
+*Traces* tag contains the traces of the object. Each elements stores all the elements they are pointing to (targets). Each *traceProperty* tag inside *trace* define a possible type of trace the that elements implements. Each *traceProperty* has the following attributes:
+
+- 'name': Name of the trace.
+- 'category': Category of the trace.
+- 'acceptedTargets': Element classes accepted as targets for the trace.
+- 'traceType': Type of the trace (author, information source, etc).
+
+There is a *target* tag with the *id* and *traceType* attribute for each target inside *traceProperty* tag.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

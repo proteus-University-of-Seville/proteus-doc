@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6jHrjsaV3Wwx" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-22</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[In order to solve the problems mentioned above, it was decided to implement a local web server to handle local resources requests from **QWebEngine**.
+
+To implement this feature, it was neccesary to create a class to implement **QWebEngineUrlRequestInterceptor**. Two string paths were defined so they can be identified by the request interceptor as local resource requests. They are used to access both templates resources and assets from the current opened project.
+
+- `template:///<templare_dir_name>/<relative_path_to_resource>`
+- `assets:///<relative_path_to_project_asset>`
+
+The threading HTTP server handle the request, build the path to the resource, read the file from disk and send the response.
+
+This helps improving document loading speeds. Resources can now be loaded asynchronously while the DOM has already been loaded.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

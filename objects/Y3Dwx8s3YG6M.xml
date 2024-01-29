@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="Y3Dwx8s3YG6M" classes="software-requirement use-case" acceptedChildren="use-case-step" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[UC-]]></prefix><number>006</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Editing the order of a document in a project]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-13</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="description" category="details"><![CDATA[The system shall allow the user to edit the position of a document in a project.]]></markdownProperty>
+    <enumProperty name="importance" category="priority" choices="nd vital important">nd</enumProperty>
+    <enumProperty name="urgency" category="priority" choices="nd immediately pressure">nd</enumProperty>
+    <enumProperty name="development-status" category="priority" choices="nd developing pending">nd</enumProperty>
+    <enumProperty name="stability" category="priority" choices="nd low medium high">nd</enumProperty>
+    <markdownProperty name="precondition" category="conditions"><![CDATA[There must be an open project with at least two documents.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="conditions"><![CDATA[The document has updated its position in the project.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[The order is edited by dragging the document to the desired position.]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="4CDeu9Rk3RN8"/>
+    <child id="56wwGxbPdhMK"/>
+    <child id="8E7k2US4ZAvd"/>
+  </children>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
+    </traceProperty>
+  </traces>
+</object>

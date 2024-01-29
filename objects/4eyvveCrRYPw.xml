@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4eyvveCrRYPw" classes="software-requirement use-case use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Archetype request]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[The system displays the document archetypes and prompts the user to select one.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces/>
+</object>

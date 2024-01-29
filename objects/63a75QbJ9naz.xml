@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="63a75QbJ9naz" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-21</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[As a solution, it was decided to eliminate the id attribute from all tags found within the symbolic link. For its identification, in the "div" that encompasses the symbolic link object, it is given a special "symbolic-link" class.
+
+This removal is done when loading the document using JavaScript. There are no problems with other Ids since, as they are templates that generate HTML code designed to be executed several times, excluding the object identifier, there is nothing that could be used for the "id" attribute without it being repeated.
+
+This solution makes the final HTML code correct once loaded (not the one generated using XSLT), and also solves the navigation problem both in the PROTEUS view and in the generated PDF.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

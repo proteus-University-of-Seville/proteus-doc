@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6uX8mKCnVavc" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-03</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[In order to improve the general user experience. It was decided to store the application state in a YAML file inside the project directory. This file will contain information about the current view, current document, selected object for each document and which objects are expanded in the document trees.
+
+This file is not mandatory for the project to load correctly. In the future consider giving the user the chance to deactive this feature in the configuration dialog.
+
+It was implemented in a new module using two functions (read and write). Using functions separated from the state manager is done to avoid excesive coupling and also circular dependencies errors. These functions are used in MainWindow and MainMenu component as there is where app closeEvent/open/save is performed.
+
+App state save will only happen under the following scenarios:
+
+- Project is saved.
+- Proteus is closed and a project is opened with no unsaved changes.
+- Open project when there is already a project opened and save it changes before opening the new one.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

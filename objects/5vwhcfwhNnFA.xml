@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5vwhcfwhNnFA" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-11</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Business logic is implemented in services and model/repositories.
+
+The model/repositories help parsing information from the project files and storing them in the application cache. In the model there are method to manipulate objects and projects within their context (clone, save, add child, set property, etc). Object and Project children are lazy loaded to prevent excesive memory usage because large archetypes loading.
+
+Services act as interfaces to the upper layers. They use the model and repositories in order to fetch information from the data layer, perform modifications and store items in cache. There are three services that work isolated from each other, **ProjectService**, **ArchetypeService** and **RenderService**.
+
+- **ProjectService** implements business logic relative to object, document and project manipulation. When created, it loads the project and its objects storing them in cache. This makes easier to retrieve specific object information without going throught all the project tree structure.
+
+- **ArchetypeService**, implements archetypes business logic. It is responsible for caching the objects, documents and project archetypes from the archetype repositories so they can be easily accesed.
+
+- **RenderService** just access the system resources in order to load the XSLT templates. It caches the XSLT transformation and provides and interface to transform XML into HTML using the provides templates.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

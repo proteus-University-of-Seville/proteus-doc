@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="akKfT3PioUnp" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[More problems]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-01</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[As development continued, more problem related to the event management system where found. There are three main problems.
+
+- There is no consistency in events arguments. Since there is a generic notify method, all argument rely on arguments and keyword arguments to pass relevant information to the conected methods. This lack of consistency and typehinting  generate code hard to read/maintain.
+- New events cannot be added dynamicly. Since events are 'defined' in an enumerate, they cannot be added during runtime. This feature is critical to allow future plug-ins to add events.
+- Event manager behaviour is single threaded. Current implementation runs the code in the main thread. This is not critical but running update methods from the GUI components outside the main thread helps improving the user experience.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

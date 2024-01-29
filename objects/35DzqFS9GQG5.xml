@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="35DzqFS9GQG5" classes="software-requirement objective" acceptedChildren="objective" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[OBJ-]]></prefix><number>002</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Allow multiple views of a document]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="description" category="details"><![CDATA[The system must allow to visualize the information of the project documents by applying different templates.]]></markdownProperty>
+    <enumProperty name="importance" category="priority" choices="nd vital important">nd</enumProperty>
+    <enumProperty name="urgency" category="priority" choices="nd immediately pressure">nd</enumProperty>
+    <enumProperty name="development-status" category="priority" choices="nd developing pending">nd</enumProperty>
+    <enumProperty name="stability" category="priority" choices="nd low medium high">nd</enumProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
+    </traceProperty>
+  </traces>
+</object>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4S5yqRiRyCpk" classes="organization" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[University of Seville]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <stringProperty name="address" category="details"><![CDATA[C/ San Fernando, 4, Sevilla 41004]]></stringProperty>
+    <stringProperty name="phone-number" category="details"><![CDATA[]]></stringProperty>
+    <stringProperty name="fax" category="details"><![CDATA[]]></stringProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+  </traces>
+</object>

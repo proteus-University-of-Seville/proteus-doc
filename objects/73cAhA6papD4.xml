@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="73cAhA6papD4" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[When a person faces the development of a project, regardless of the professional field, there are always recurring documentation tasks that end up slowing down the work. Many professionals must include documents or sections for bureaucratic reasons or find repetitive tasks. In other cases, users also need a global control of the status of the elements of their project because of dependencies and they cannot deal with this logic using text editors such as Microsoft Word.
+
+These problems are frequent in the field of software development, where documentation management can become chaotic due to the dependency of objectives, requirements, etc. This makes it difficult to follow a trace from the project goal to the final implementation.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

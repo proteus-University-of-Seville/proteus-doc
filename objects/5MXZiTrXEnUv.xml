@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5MXZiTrXEnUv" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Application layer]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-17</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Contains classes and code definitions that are used by all layers. Main application layers classes are mostly singleton that can be accessed anywhere in the code. This classes implements the most elemental aspects of the application (state, plugins, events and other management basics). The most important singleton classes are:
+
+- **Config**, configuration class that stores application directories path and loads/writes user specific configuration from *proteus.ini* file.
+- **StateManager**, manages the application state including selected object in each document, selected document and selected view. When the state changes, It emits events with the updated information. **StateManager** is also used by *state_restorer* module functions in order to restore the previous project session when user opens a project.
+- **Translator**, loads the internationalization files from the resources directory and provides the translations dictionary.
+- Each application event is a class on its own (**DeleteObjectEvent**, **OpenProjectEvent**, etc). These classes implements *connect* and *notify* methods. They use PyQt signals to handle subscribed functions/methods.
+- **PluginManager**, handles plugins import and registration.
+
+There are other important functionalities that are not singleton classes like **WebEngineUrlRequestInterceptor** and **ThreadingHTTPServer** that provides support for local files loading from PyQt's **QWebEngine**.
+]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

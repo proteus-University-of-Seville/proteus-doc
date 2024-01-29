@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="73zNDn44QE9e" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-11</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[XSLT templates are stored in the _xslt_ directory inside the system resources directory. Every template has its own folder that constains the XSL files and a _template.xml_ file.
+
+The template XML file defines basic template configuration. It contains information about the template entry point (main XSL file), dependencies and template name.
+
+The template XML file has a root element _template_ that contains an attribute _name_ to set the template name. The root element contains two elements, _entryPoints_ and _dependencies_.
+
+Entry points tag has an attribute _default_ that tells the system the file name (extension included) of the default main XSL file in case to specific language entry point is found. Children elements _entryPoint_ can be added with the attributes _l;anguage_ and _file_.
+
+Dependencies element contains _pluginDependency_ as children elements. They just need the name of the plugin.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

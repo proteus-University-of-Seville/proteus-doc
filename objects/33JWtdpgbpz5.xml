@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="33JWtdpgbpz5" classes=":Proteus-document" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-acronym" category="general"><![CDATA[ADV MANUAL]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Proteus advanced user manual]]></stringProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-21</dateProperty>
+    <markdownProperty name="description" category="details"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="68vLXp5DF7Uv"/>
+    <child id="3hSQFMKLxDzf"/>
+  </children>
+  <traces>
+    <traceProperty name="prepared-for" category="dependencies" acceptedTargets="organization" traceType=":Proteus-dependency">
+      <trace target="4S5yqRiRyCpk" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <traceProperty name="prepared-by" category="dependencies" acceptedTargets="organization" traceType=":Proteus-author">
+      <trace target="4S5yqRiRyCpk" traceType=":Proteus-author"/>
+    </traceProperty>
+  </traces>
+</object>

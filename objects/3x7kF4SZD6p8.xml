@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3x7kF4SZD6p8" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[In the earliest stages of development, the basic management of a single document with a single view was implemented. As we progressed in the implementation of some functionalities such as the management of several documents per project, problems arose with the management of the state of the application. When we talk about application state we refer to information that the system must store from its interaction with the user, such as the selected object, document or view that is displayed. The management of the application state was done from the variables and methods implemented by the PyQt classes and the PyQt classes. After advancing in the development it was found that it was repetitive and difficult to access from some point of the application to the active document, thus accessing its associated QTreeWidget class object, calling the method that returned the selected object. This operation was essential for functionalities such as the archetypes menu, which is dynamically updated according to the selected object, or for updating only selected views, thus saving computational cost. The need to 'de-select' objects after deletion to avoid unexpected behavior was also detected.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

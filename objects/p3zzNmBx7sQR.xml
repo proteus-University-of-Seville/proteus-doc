@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="p3zzNmBx7sQR" classes="software-requirement information-requirement" acceptedChildren="specific-data" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[IQR-]]></prefix><number>004</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Information about properties]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2023-12-13</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="description" category="details"><![CDATA[The system shall store information about the properties of objects, documents and projects. The number and type of properties it contains varies with each object, document and project. Possible types are: boolean, class list, date, enumerated, file, float, integer, markdown, string, time, url and identifier code. The property name ":Proteus-name" belongs to the set of properties but its presence must be mandatory for the correct functioning of the system. Properties can be marked as immutable as a recommendation to the user not to modify them.]]></markdownProperty>
+    <enumProperty name="importance" category="priority" choices="nd vital important">nd</enumProperty>
+    <enumProperty name="urgency" category="priority" choices="nd immediately pressure">nd</enumProperty>
+    <enumProperty name="development-status" category="priority" choices="nd developing pending">nd</enumProperty>
+    <enumProperty name="stability" category="priority" choices="nd low medium high">nd</enumProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="4oTqUNAev86f"/>
+    <child id="YU9cCxzuvF7n"/>
+    <child id="i3JjVapThXyU"/>
+    <child id="8JncarYPFswy"/>
+  </children>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
+    </traceProperty>
+  </traces>
+</object>

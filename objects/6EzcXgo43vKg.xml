@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6EzcXgo43vKg" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[In this section we are explaning how to add properties to archetypes. Properties are defined by XML markup and use predefined attributes to interact with the rest of the application. Properties are place inside the `<properties>` tag in the archetype XML file. Here it is an example of a simple archetype with a simple property:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="simple-arch" classes="dummy" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name="name">This is my name</stringProperty>
+  </properties>
+  <children />
+  <traces />
+</object>
+```]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

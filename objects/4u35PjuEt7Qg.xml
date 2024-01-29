@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4u35PjuEt7Qg" classes="graphic-file" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Controller]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-17</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <fileProperty name="file" category="general"><![CDATA[components_controller.png]]></fileProperty>
+    <integerProperty name="width" category="general">90</integerProperty>
+    <markdownProperty name="description" category="details"><![CDATA[Controller overview.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

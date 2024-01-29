@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="Xb7oekcioaCU" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Include files in the repository]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Once the archetype file is completed including properties and traces, it can be copied to the archetype repository. Go to the archetype repository and open 'objects' folder. Inside objects archetype folder there will be one or multiple folder with the name format 'XX_name' (where XX is a natural number). Select a category (folder) where the archetype will be included. Once the folder is chosen, you must follow these steps:
+
+- Include the archetype XML file into the 'objects' directory inside the category directory. File name must be the archetype id. If the archetype has children, copy all the files to the same directory (including nested). Example: `repository>objects>00_general>object>example-archetype.xml`
+
+- If the archetype has assets, copy them into the assets folder (including children assets). The assets folder must be located in the same directory as the category objects folder. Make sure there are no names collisions in the assets files. Example `repository>objects>00_general>assets>image.png`.
+
+- Include the archetype in the `objects.xml` file. The objects configuration file is located in the category directory. An `<object>` tag must be included with the `id` attribute in order to tell the system that the archetype file is an archetype. Archetype children must not be added, this is just a pointer to tell the system if the file has to be interpreted as an archetype. This is an example of this file.
+```
+<objects>
+    <object id="empty-paragraph" />
+    <object id="lorem-paragraph" />
+    <object id="glossary-item" />
+    <object id="empty-section" />
+    <object id="empty-appendix" />
+</objects>
+```
+
+- Archetype icon **OPTIONAL**. Archetype icon is defined by its main class (last class in classes attribute). Check `icons.xml` file in icons directory in the repository to check if there is already an icon set for the new archetype main class. If your archetype main class do not have an icon, it will use the default proteus archetype icon. You can add icons using the following syntax `<icon key="section" file="section.png" />`, where key is the archetype main class and file is the file name/extension of the icon located in the repository icons directory. Example of `icons.xml`:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<icons>
+    <type name="acronym"/>
+    <type name="archetype">
+        <icon key="paragraph" file="paragraph.png" />
+        <icon key="section" file="section.svg" />
+    </type>
+</icons>
+```]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>
