@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="4i2xZqrDLJuX" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
+<object id="7fdyjukDi6Cu" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Proteus XSLT basics]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[XSLT functions]]></stringProperty>
     <booleanProperty name="is-appendix" category="general" tooltip="property.is-appendix.tooltip">false</booleanProperty>
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
-    <child id="69TQZHw6kdCa"/>
-    <child id="7fdyjukDi6Cu"/>
-    <child id="44DFdNG59G2Q"/>
+    <child id="vinSvLwdbhwJ"/>
+    <child id="73xXeqJkh6P3"/>
+    <child id="6FHykzp2zvUx"/>
   </children>
   <traces/>
 </object>

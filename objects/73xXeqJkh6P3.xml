@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="69TQZHw6kdCa" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+<object id="73xXeqJkh6P3" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
-    <dateProperty name=":Proteus-date" category="general">2024-01-17</dateProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Image to base64]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-01</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[**Proteus XSLT basics** plugin provide basic functionalities for the XSLT templates. It register three XSLT functions and a QWebChannel object.]]></markdownProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Image to base64 (`image_to_base64`) function take an project asset filename (extension included) as argument and return its base64 representation. This function is useful to embed the images into the HTML but it can increase the XSLT transformation time substantially.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

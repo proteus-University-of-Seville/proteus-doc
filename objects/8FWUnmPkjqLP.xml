@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="8FWUnmPkjqLP" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[All the data in the archetypes XML files will be displayed at is was written (case sensitive). Although, it is possible to internationalize some basic information about your archetype so people around the world can interact with them easier.
+
+This archetype data can be translated:
+
+- Archetype classes
+- Property names
+- Property categories
+- Property tooltips
+- enumProperty choices
+
+It is possible to not translate the whole repository. The non translated data will show as it is written in the XML file. **NOT RECOMMENDED**]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

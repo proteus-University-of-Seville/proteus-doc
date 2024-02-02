@@ -9,7 +9,9 @@
 
 An `icons` folder may be created in the archetypes repository. It is optional. It must follow the same structure as `icons` folder inside application `resources` directory (icons file and `icons.xml`). The only restriction is that the archetypes repository icons XML file can just add acronym and archetypes icons, application icons cannot be added (menu icons, etc).
 
-Application icons XML file still defines default icons for archetype and acronyms, it also accepts specific icons in that categories. Default and specific icons defined in application icons XML file can be overwritten with the archetypes repository icons configuration XML file.]]></markdownProperty>
+Application icons XML file still defines default icons for archetype and acronyms, it also accepts specific icons in that categories. Default and specific icons defined in application icons XML file can be overwritten with the archetypes repository icons configuration XML file.
+
+In the future, plugins may have their own resources separately.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4rWbYn4D8yU8" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Complex example]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[**YAML file defines context example**
+
+translation.yaml content:
+
+```
+main_window.title: "Proteus application"
+archetype:
+    class:
+        section: "Section"
+        paragraph: "paragraph"
+```
+
+Translator output for the following codes:
+
+- `main_window.title` --> "Proteus application" (Found)
+- `main_window.text` --> "main_window.text" (Not found)
+- `archytpe.class.section` --> "Section" (Found)
+- `archetype.class.objective` --> "objective" (Not found, two contexts match)
+- `archetype.name.section` --> "name.section" (Not found, one context match
+- `class.section` --> "class.section" (Not found)]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

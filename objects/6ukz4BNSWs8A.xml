@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="69TQZHw6kdCa" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+<object id="6ukz4BNSWs8A" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
-    <dateProperty name=":Proteus-date" category="general">2024-01-17</dateProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[**Proteus XSLT basics** plugin provide basic functionalities for the XSLT templates. It register three XSLT functions and a QWebChannel object.]]></markdownProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Archetypes are a dynamic part of the application. The system is built around the concept of archetypes being added/removed without the interfering of the main application core.
+
+Translations, like icons, are an important part of an archetype. Translations must be stored with the archetypes themselves to ensure the archetypes existence as an independent element from the system core.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
