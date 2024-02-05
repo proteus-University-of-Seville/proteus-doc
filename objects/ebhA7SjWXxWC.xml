@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="ebhA7SjWXxWC" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Example file]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Here it is an example of a translation file in an archetype repository:
+
+```
+archetype.category.general: "General"
+archetype.category.software_requirements: "Software requirements"
+
+archetype.class.paragraph: "Paragraph"
+archetype.class.section: "Section"
+archetype.class.graphic-file: "Graphic file"
+archetype.class.external-resource: "Ext. resource"
+
+archetype.prop_category.general: "General"
+archetype.prop_category.details: "Details"
+
+  
+archetype.enum_choices.nd: "Not defined"
+archetype.enum_choices.developer: "Developer"
+archetype.enum_choices.user: "User"
+archetype.enum_choices.customer: "Customer"
+  
+archetype.tooltip.is-appendix: "Check if it is an appendix."
+archetype.tooltip.is-glossary: "Check if it is a glossary item."
+  
+archetype.prop_name.name: "Name"
+archetype.prop_name.version: "Version"
+archetype.prop_name.role: "Role"
+archetype.prop_name.date: "Date"
+```]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

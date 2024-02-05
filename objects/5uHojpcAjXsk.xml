@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5uHojpcAjXsk" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Add custom icons]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[It is possible to add custom icons for the repository archetype classes or modify application default icons. Document icons in document tabs can also be added so they change for specific document acronyms.
+
+In order to add custom icons, create a directory named `icons` in the archetype repository. Inside this folder create an `icons.xml` file with the following content.
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<icons>
+    <type name="document"/>
+    <type name="archetype"/>
+</icons>
+```
+
+Add custom icons adding entries with the following format inside the type tags. `icon-key` will be the acronym or archetype class (case sensitive). File path is calculate from the `icons` folder.
+
+`<icon key="icon-key" file="path/to/file.extension" />`
+
+Default icons can be overwritten using the `default` attribute in the type tag. The path is also relative to the icons directory. Example:
+
+```
+<type name="document" default="new-doc.svg"/>
+<type name="archetype" default="my-default.ico"/>
+```
+
+In the following file example we have added a new document icon for '_RBOOK_' the acronym and a few new icons for the new archetype classes. The default document icon was also modified:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<icons>
+    <type name="document" default="recipies.icon">
+        <icon key="RBOOK" file="rb-acronym.svg" />
+    </type>
+    <type name="archetype">
+        <icon key="recipe" file="recipe.svg" />
+        <icon key="ingredient" file="ingredient.png" />
+        <icon key="recipe-step" file="r-step.png" />
+    </type>
+</icons>
+```]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

@@ -1,25 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="4gaxNHZsHGPx" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+<object id="7EYpzxdw6Yjm" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Example]]></stringProperty>
-    <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Documents and projects]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[As an example we will add a translations file the following translations:
-
-- Property name "name" translated as "Example name"
-- Property tooltip "Amazing tooltip" translated as "Example tooltip"
-- Archetype class ":Proteus-hello" translated as "Hello World!"
-
-Final file content:
-
-```
-archetype.prop_name.name:  "Example name"
-archetype.tooltip.amazing_tooltip: "Example tooltip"
-'archetype.class.:proteus-hello': "Hello World!"
-```
-
-]]></markdownProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Archetype repository must have directories for documents and project archetypes. Create `documents` and `projects` directories and place archetypes in their respective folders. Check Create archetypes sections to learn how to create documents and project archetypes.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

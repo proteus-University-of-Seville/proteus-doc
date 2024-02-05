@@ -5,7 +5,7 @@
     <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[It was decided to store the archetypes translation in the archetypes repository. To make this possible, a new folder `i18n` must be created inside the archetypes repository. This folder contains the `languages.xml` configuration file and the YAML translations file/directories.]]></markdownProperty>
+    <markdownProperty name="text" category="details"><![CDATA[It was decided to store the archetypes translation in the archetypes repository. To make this possible, a new folder `i18n` must be created inside the archetypes repository. This folder contains the `languages.xml` configuration file and the YAML translations files/directories.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

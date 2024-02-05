@@ -1,22 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="6teCwqAcENJv" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+<object id="5CiPRT4meVTB" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Basic example]]></stringProperty>
-    <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[**Basic translation example**
-
-translation.yaml content:
-
-```
-main_window.title: "Proteus application"
-```
-
-Translator output for the following codes:
-
-- `main_window.title` -> "Proteus application" (Found)
-- `main_window.text` -> "main_window.title" (Not found)]]></markdownProperty>
+    <markdownProperty name="text" category="details"><![CDATA[An archetype repository must implement a basic structure in order to work. Start creating an empty folder that will be your archetype repository, optionally you can copy an existing archetype repository and modify it. There is no folder name restrictions.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

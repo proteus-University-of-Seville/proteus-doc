@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="dPhuTkoMBzm5" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Objects]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Archetype repository must contain objects archetypes. Create a folder named `objects` inside the archetype repository directory.
+
+This `objects` directory will contain the directories for the different archetype categories. Archetypes are grouped by category, they will be shown in different tabs in the application.
+
+Create at least one category directory. They have to be named like 'XX_name' (where XX is a natural number from 00 up to 99). Number defines tab order when they are loaded.
+
+Inside the category directory create an objects folder, assets folder and an `objects.xml` file.
+
+- `objects` folder stores the archetypes XML files.
+- `assets` folder stores the archetypes assets if any.
+- `objects.xml` file contain the reference to the archetypes identifiers. There is an example of an `objects.xml` that references an archetype with id `empty-paragraph`.
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+    <object id="empty-paragraph" />
+</objects>
+```
+
+In order to create objects archetypes check the Create archetypes section.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>
