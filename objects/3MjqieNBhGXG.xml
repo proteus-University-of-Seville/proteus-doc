@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="3MjqieNBhGXG" classes="software-requirement information-requirement specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+<object id="3MjqieNBhGXG" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Object classes]]></stringProperty>
     <markdownProperty name="description" category="general"><![CDATA[Object classes]]></markdownProperty>

@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[First solution and its problems]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[For the graphic files, it was decided to convert them to base64 and insert them into the HTML itself. Regarding the style sheets, the possibility of including it with the style tag was considered, which was completely discarded since by introducing all the styles in the tag it exceeded the style limit that the browser can process from style tags. Stylesheets stayed as external resources, javascript scripts were included using *script* tag.
 
 This solution led to three main problems that affect user experience:

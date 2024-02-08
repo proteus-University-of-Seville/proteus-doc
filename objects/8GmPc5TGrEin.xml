@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[codeProperty]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">true</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">true</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[It is used to store special identifiers with format `prefix-number-suffix`. Prefix, number and suffix can be edited separately.
 
 ```

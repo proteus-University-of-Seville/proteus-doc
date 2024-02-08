@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[This is why we chose to implement lazy loading of children to avoid excessive disk read times, thus ensuring that the depth levels in child objects would not pose a problem for storing archetypes in the future of the application. In this way the children of the root object are only read and instantiated the first time you try to access them.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

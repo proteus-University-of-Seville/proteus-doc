@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="5f5orZRgn7ms" classes="software-requirement use-case use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+<object id="5f5orZRgn7ms" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Properties modification]]></stringProperty>
     <markdownProperty name="description" category="general"><![CDATA[The user modifies the document properties and requests confirmation of changes.]]></markdownProperty>

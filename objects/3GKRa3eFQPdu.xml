@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[System actors overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[This section outlines the actors in the system. Due to the nature of the system, there is currently only one type of actor capable of performing all available actions. An advanced user type could be identified, which is expected to have the ability to introduce new XSL templates or archetypes into the system files.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

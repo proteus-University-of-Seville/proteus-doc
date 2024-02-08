@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Documentary object]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">true</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">true</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[Element created from a system object archetype that can contain other objects according to its allowed classes and properties. It can only exist in the context of a document (document class object). (Examples: paragraph, section, figure, etc.)]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

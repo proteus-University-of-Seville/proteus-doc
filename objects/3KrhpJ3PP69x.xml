@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[enumProperty]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">true</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">true</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[It is used to store user selection from a set of choices. `choices` is an special attribute of enum properties. Choices are translated. Choices are displayed in a combobox, user must select one of the choices.
 
 `<enumProperty name="category" category="details" choices="nd customer developer user">nd</enumProperty>`]]></markdownProperty>

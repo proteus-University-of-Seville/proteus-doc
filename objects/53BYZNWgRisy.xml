@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Proteus basics]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-01</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[Proteus basic methods class (`proteusBasics`) provides one method to be used in the HTML view.
 
 - `get_current_object_id` returns the current object identifier (ProteusID). It uses the `StateManager` singleton to access the data.]]></markdownProperty>

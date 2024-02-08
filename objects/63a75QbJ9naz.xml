@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-21</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[As a solution, it was decided to eliminate the id attribute from all tags found within the symbolic link. For its identification, in the "div" that encompasses the symbolic link object, it is given a special "symbolic-link" class.
 
 This removal is done when loading the document using JavaScript. There are no problems with other Ids since, as they are templates that generate HTML code designed to be executed several times, excluding the object identifier, there is nothing that could be used for the "id" attribute without it being repeated.

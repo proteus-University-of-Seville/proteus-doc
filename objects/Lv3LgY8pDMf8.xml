@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[First solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[A first solution was implemented, it was decided to create a class that would implement the observer pattern and serve as the application's event manager. Some base events were defined as a result of basic user interactions (open project, delete object, etc). PyQt events or "signals" are no longer connected directly to the update methods of each component, these now trigger one or more events as appropriate. It is the responsibility of each component to subscribe one or more methods to one or more events.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

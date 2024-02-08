@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-03</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[In order to improve the general user experience. It was decided to store the application state in a YAML file inside the project directory. This file will contain information about the current view, current document, selected object for each document and which objects are expanded in the document trees.
 
 This file is not mandatory for the project to load correctly. In the future consider giving the user the chance to deactive this feature in the configuration dialog.

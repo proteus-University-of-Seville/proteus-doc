@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Application layer overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-17</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[Contains logic shared between all layers. It manages the application state, internationalization, plugins, events, configuration, etc. Its classes instance can be accessed anywhere in the application. Provides code definitions like decorators.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

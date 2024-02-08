@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Include files in the repository]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[Once the archetype file is completed including properties and traces, it can be copied to the archetype repository. Go to the archetype repository and open 'objects' folder. Inside objects archetype folder there will be one or multiple folder with the name format 'XX_name' (where XX is a natural number). Select a category (folder) where the archetype will be included. Once the folder is chosen, you must follow these steps:
 
 - Include the archetype XML file into the 'objects' directory inside the category directory. File name must be the archetype id. If the archetype has children, copy all the files to the same directory (including nested). Example: `repository>objects>00_general>object>example-archetype.xml`

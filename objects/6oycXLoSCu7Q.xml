@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Document interactions]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-01</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[Document interactions class (`documentInteractions`) provides two methods to enhance the interaction between the view and document trees.
 
 - `open_properties_dialog` opens the property dialog for the given identifier (ProteusID). Raises an error if the object does not exists. This method can be used in the HTML views to open dialogs using buttons or click events (example in the proteus default template)

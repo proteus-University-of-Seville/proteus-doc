@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Project]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">true</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">true</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[Project created from a system project archetype that can contain documents. It can include properties.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[REMUS]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[In order to solve the above mentioned problems in the field of software development, the REM tool (later REMUS) was born, which is a free experimental Requirements Management tool designed to support the Requirements Engineering phase.
 
 Both REM and REMUS have some limitations, such as being a native Windows application, not being able to create or delete documents, or the fact that the way projects are stored makes it difficult to use a version control system.]]></markdownProperty>

@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[Application archetypes are stored inside the instalation directoy. It has a defined directory structure in order to be loaded. They are found in the application root directory in a folder called *archetypes*. Inside the archetype directory there are multiple folders:
 
 - *projects*, contains a folder for each project archetype. Project archetypes are projects but the project file *proteus.xml* is named *project.xml*.

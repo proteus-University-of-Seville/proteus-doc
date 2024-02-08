@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="78bBRcd3Yczw" classes="software-requirement use-case use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+<object id="78bBRcd3Yczw" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Position update]]></stringProperty>
     <markdownProperty name="description" category="general"><![CDATA[The system updates the position of the object in the project.]]></markdownProperty>

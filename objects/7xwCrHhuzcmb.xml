@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Prototype]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-18</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[It creates new instances of a class from the copy of a prototype instance, which implements a cloning method. This pattern is one of the fundamental parts not only of the business logic of the application, but also of the concept of user interaction. It is implemented by the **Object** and **Project** classes, thus allowing the cloning of objects of an existing project or projects/objects (including documents) archetypes.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

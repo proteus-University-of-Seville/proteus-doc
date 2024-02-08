@@ -4,10 +4,10 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[fileProperty]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">true</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">true</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[It is used to store file in the project assets directory. It provides a file dialog where you can browse the file. The selected file will be copied to the assets directory of the project. The file name (including extension) will be set as the property value. If there is already a file with the same name in the assets directory, it will be overwriten.
 
-`<fileProperty name="file" tooltip="property.file.tooltip">us-logo.jpg</fileProperty>`]]></markdownProperty>
+`<fileProperty name="file" tooltip="file-info">us-logo.jpg</fileProperty>`]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

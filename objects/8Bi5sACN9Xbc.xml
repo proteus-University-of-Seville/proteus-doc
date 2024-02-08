@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Documents and objects]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="property.is-glossary.tooltip">false</booleanProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[**Documents** and **Objects** are stored in the same directory (*objects*) following the same file structure and naming convention. The word 'element' will be use in order to explain both documents and objects file structure.
 
 The XML file is name after the unique identifier for the element. It contains an *object* tag with the following attributes:

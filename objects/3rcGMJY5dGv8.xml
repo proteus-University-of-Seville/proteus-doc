@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[objects.xml file example]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <fileProperty name="file" category="general"><![CDATA[archetype_objectsxml.png]]></fileProperty>
+    <fileProperty name="file" category="general" tooltip="file-info"><![CDATA[archetype_objectsxml.png]]></fileProperty>
     <integerProperty name="width" category="general">70</integerProperty>
     <markdownProperty name="description" category="details"><![CDATA[Example of the *objects.xml* file of a object archetype group.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
