@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="GpbmFnVumGbV" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Explanation]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-21</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Built-in repositories may have a translation and an icon. The icon is added using the `iconx.xml` config file, translations are added using the prefix `settings.repository.{folder_name}` in the translations files ( `{folder_name}` refers the archetype repository folder name).
+
+They are presented as 'default' application repositories. Once repository maybe selected in the application configuration dialog. Optionally, the user can uncheck the default repository checkbox in order to select a custom repository.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>
