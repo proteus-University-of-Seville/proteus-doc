@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4CXmknYgvyqK" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Icons are stored in the icons directory inside the system resources directory. Icons may be placed in nested directories inside the icons folder.
+
+There is a configuration file called `icons.xml` that defines an icon "key" for each icon path. In this file icons are separated by types. There are five possible icon types:
+```
+document
+repository
+archetype
+app
+main_menu
+```
+
+Each type can be interpreted as a dictionary with multiple keys, each key give access to the icon file path. In order to add an icon to a type it must be done using the following xml syntax `<icon key="icon_key" file="path/to/file.extension" />`. Each type may have a default icon in case a non-existent key is accessed. Example: `<type name="archetype" default="default-archetype.png"/>`
+
+Archetypes repositories may have their own icons directory. It must be called `icons` and it must be placed at the root of the archetype repository. Repository icons configuration file `icons.xml` can only contain `document` and `archetype` type icons. It may override the default icon for each type.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

@@ -5,6 +5,10 @@
     <booleanProperty name="is-appendix" category="general" tooltip="is-appendix">false</booleanProperty>
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="4CXmknYgvyqK"/>
+    <child id="4F4QUc47zfcF"/>
+    <child id="Xnjjw4Y5H8VR"/>
+  </children>
   <traces/>
 </object>

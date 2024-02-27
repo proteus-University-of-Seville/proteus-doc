@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3HLucGqWYEVY" classes="archetype-link" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Archetype translations tutorial]]></stringProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="link" category="general" acceptedTargets="paragraph graphic-file external-resource meeting organization stakeholder actor constraint functional-requirement non-functional-requirement objective use-case" traceType=":Proteus-dependency">
+      <trace target="JHnpuVLu8G9g" traceType=":Proteus-dependency"/>
+      <trace target="ebhA7SjWXxWC" traceType=":Proteus-dependency"/>
+    </traceProperty>
+  </traces>
+</object>

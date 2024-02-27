@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4F4QUc47zfcF" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[File example]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[This is a simplified example of a full icons configuration file from Proteus application:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<icons>
+    <type name="document" default="default-acronym.png"/>
+    <type name="repository" default="default-archetype.png"/>
+    <type name="archetype" default="default-archetype.png">
+        <icon key=":Proteus-document" file="archetypes/document.png" />
+    </type>
+    <type name="app" default="proteus_logo.png">
+        <icon key="proteus_icon" file="proteus_logo.ico" />
+        <icon key="proteus_logo" file="proteus_logo.png" />
+        <icon key="US-digital" file="US-marca-digital-cuadrada.png" />
+    </type>
+    <type name="main_menu" default="default-archetype.png">
+        <icon key="new-project" file="main_menu/new-project-button.png" />
+        <icon key="open-project" file="main_menu/open-project-button.png" />
+    </type>
+</icons>
+```]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>
