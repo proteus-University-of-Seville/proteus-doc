@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="58ocM7hiNvjj" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+<object id="58ocM7hiNvjj" classes="glossary-item" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Archetype]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">true</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[Prototype of a project, document or object that can be cloned by the user. It is called an archetype rather than a prototype because each is considered an original and primary model for its archetype type. In addition, it is intended to avoid confusion from the user side due to the popular concept of prototype, which is perceived as incomplete or under development.]]></markdownProperty>
+    <markdownProperty name="description" category="details"><![CDATA[Prototype of a project, document or object that can be cloned by the user. It is called an archetype rather than a prototype because each is considered an original and primary model for its archetype type. In addition, it is intended to avoid confusion from the user side due to the popular concept of prototype, which is perceived as incomplete or under development.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

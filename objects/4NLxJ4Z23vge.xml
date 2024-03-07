@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="4NLxJ4Z23vge" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+<object id="4NLxJ4Z23vge" classes="glossary-item" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Property]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">true</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[Attribute belonging to an object, document or project. It is defined with a name, a value and a class. There are different types of properties depending on the value they represent (Examples: floatProperty, fileProperty, stringProperty, etc.).]]></markdownProperty>
+    <markdownProperty name="description" category="details"><![CDATA[Attribute belonging to an object, document or project. It is defined with a name, a value and a class. There are different types of properties depending on the value they represent (Examples: floatProperty, fileProperty, stringProperty, etc.).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="4zU6oNDjdniz" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+<object id="4zU6oNDjdniz" classes="glossary-item" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Selected document]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">true</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[Document currently selected by the user in the system. Selecting a document displays its rendering in the views container.]]></markdownProperty>
+    <markdownProperty name="description" category="details"><![CDATA[Document currently selected by the user in the system. Selecting a document displays its rendering in the views container.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

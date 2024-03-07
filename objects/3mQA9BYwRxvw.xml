@@ -11,14 +11,14 @@
 
 This command will also include `proteus.ini` file as dependency. Once the spec file is created, `archetypes` and `resources` directories must be added manually  editing the spec file. This is caused due to `data` field and `--add-data` argument ignore subdirectories structure, they just recollect information about files inside the given folder (not recursive). Modify the spec folder to add the following lines:
 
-```
+``` html
 Tree('resources', prefix='resources'),
 Tree('archetypes', prefix='archetypes'),
 ```
 
 These lines must be placed in:
 
-```
+``` html
 ...
 exe = EXE(
     pyz,
@@ -36,7 +36,7 @@ exe = EXE(
 
 Once the spec file has been modified, execute the command `pyinstaller .\Proteus.spec` to apply the changes to the `exe` file.
 
-If you want to update the executable with new changes made in the codebase, If the spec file is already created you can skip all the steps and execute the last command `pyinstaller .\Proteus.spec`.]]></markdownProperty>
+If you want to update the executable with new changes made in the codebase, If the spec file is already created you can skip all the steps and execute the last command `pyinstaller .\Proteus.spec` or `pyinstaller --clean .\Proteus.spec`.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
