@@ -14,6 +14,7 @@ This command will also include `proteus.ini` file as dependency. Once the spec f
 ``` html
 Tree('resources', prefix='resources'),
 Tree('archetypes', prefix='archetypes'),
+Tree('plugins', prefix='plugins'),
 ```
 
 These lines must be placed in:
@@ -26,6 +27,7 @@ exe = EXE(
     a.binaries,
     Tree('resources', prefix='resources'),
     Tree('archetypes', prefix='archetypes'),
+    Tree('plugins', prefix='plugins'),
     a.zipfiles,
     a.datas,
     [],

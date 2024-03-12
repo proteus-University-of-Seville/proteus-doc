@@ -4,7 +4,9 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Plugins modules]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-03-07</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <markdownProperty name="text" category="details"><![CDATA[`plugins` package and all the plugins packages must be added as 'hiddenimports' since they are imported using `importlib`. Example of the `spec` file (note how `remus` and `basics` plugins are also added):
+    <markdownProperty name="text" category="details"><![CDATA[Plugins may have dependencies that are not shared with Proteus application. This dependencies must be added as hiddenimports so they are included in the executable.
+
+As an alternative, a plugin developer may download the dependency source and add the dependecy package to the `PYTHONPATH` (`sys.path`). This is a workaround in case the plugins is loaded from an external directory instead of being packed directly into the exe. Do not recommended if the app is being packed as an `.exe` file.
 
 ```
 a = Analysis(
@@ -12,7 +14,7 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[('proteus.ini', '.')],
-    hiddenimports=['proteus.plugins', 'proteus.plugins.basics', 'proteus.plugins.remus'],
+    hiddenimports=['myDependency'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
