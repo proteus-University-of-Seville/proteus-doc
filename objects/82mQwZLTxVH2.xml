@@ -1,11 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <object id="82mQwZLTxVH2" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[TBD]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Sphinx]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Proteus documentation can be created from docstrings using Sphinx. Sphinx is not present in the requirements text file so it has to be installed using the command `pip install Sphinx`.
+
+Once Sphinx is installed, create a folder named docs (name ignored by `gitignore`).Inside the folder run the command `sphinx-quickstart` in order to create Sphinx files.
+
+Modify the following files to ensure every docstring is documented.
+
+In the file `index.rst` include the following lines at the end of the file:
+```
+.. autosummary::
+   :toctree: _autosummary
+   :caption: PROTEUS packages and modules
+   :recursive:
+
+   proteus
+```
+
+In the file `conf.py` include/replace the following lines:
+``` python
+import sys
+import os
+sys.path.insert(0, os.path.abspath('..'))
+
+extensions = [
+    'sphinx.ext.duration',
+   'sphinx.ext.doctest',
+   'sphinx.ext.autodoc',
+   'sphinx.ext.autosummary',
+]
+
+autoclass_content = 'both'
+autodoc_default_options = {
+    'members': True,
+    'member-order': 'bysource',
+    'special-members': '__init__',
+}
+autosummary_generate = True
+```
+
+Once these files are modified, simple documentation can be generated using the make files provided by Sphinx quickstart command, `make.bat html` or `make html` depending on the OS.
+
+For more advanced customization check Sphinx documentation.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
