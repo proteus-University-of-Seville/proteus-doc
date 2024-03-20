@@ -12,6 +12,6 @@
     <document id="33JWtdpgbpz5"/>
   </documents>
   <xsl-templates>
-    <xsl-template name="default"/>
+    <xsl-template name="remus"/>
   </xsl-templates>
 </project>
