@@ -1,15 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <object id="BbSwoH7UEJeL" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Profile translations]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[It is possible to add custom translations to all the data from the archetype repository that will be displayed (excluding properties values that are not enumerate choices).
+    <markdownProperty name="text" category="details"><![CDATA[Profiles may add custom translations for their plugins and archetype strings. An i18n directory must be created and specified in the `profile.ini` file. Inside this directory include a `language.xml` file.
 
-In order to add custom translations create a folder named `i18n` inside archetype repository directory. This folder will contain the translation files/directories and a `languages.xml` file.
-
-The language configuration file `languages.xml` defines the path to the available laguages translations in the archetype repository. It can also define a default translation file/directory in case the translation for the current application language is not found. If no default translation path is provided and the current system language is not found in the available repository languages, no translations will be loaded and archetype string will be used as they are written in the XML files. Example of `languages.xml` file:
+The language configuration file `languages.xml` defines the path to the available laguages translations in the i18n directory. It can also define a default translation file/directory in case the translation for the current application language is not found. If no default translation path is provided and the current system language is not found in the available profile languages, the strings will be presented as they are written. Example of `languages.xml` file:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -24,7 +22,9 @@ Path attribute can be either a file (yml or yaml) or a directory that contains m
   </properties>
   <children/>
   <traces>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </traces>

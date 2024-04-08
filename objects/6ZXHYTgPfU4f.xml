@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6ZXHYTgPfU4f" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Register function]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Register function takes three arguments that are functions used in the registration process. Use these functions to register the following components:
+
+`register_xslt_function`: Register Python functions that will be accessed in the XSLT files using the prefix `proteus-utils:`
+
+`register_qwebchannel_class`: Register Python classes that can be accessed from QWebEngineView.
+
+`register_proteus_component`: Register general purpose `Proteuscomponent` classes.
+
+Example of register function:
+``` python
+from remus.document_interactions import DocumentInteractions
+from remus.glossary_handler import GlossaryHandler
+from remus.traceability_matrix_helper import TraceabilityMatrixHelper
+
+def register(register_xslt_function, register_qwebchannel_class, register_proteus_component):
+
+    # Document Interactions
+    register_qwebchannel_class("documentInteractions", DocumentInteractions)
+
+    # Glossary
+    register_xslt_function("glossary_highlight", GlossaryHandler.highlight_glossary_items)
+    register_proteus_component("glossaryHandler", GlossaryHandler)
+
+    # Traceability Matrix
+    register_proteus_component("traceabilityMatrixHelper", TraceabilityMatrixHelper)
+    register_xslt_function("get_objects_from_classes", TraceabilityMatrixHelper.get_objects_from_classes)
+    register_xslt_function("check_dependency", TraceabilityMatrixHelper.check_dependency)
+```]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6AkiJqMvcFBx" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-04-05</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[It is possible to add custom translations to all the data from the archetype repository that will be displayed (excluding properties values that are not enumerate choices).
+
+In order to add custom translations go to the existing i18n directory in the profile directory, check profile translations guide for more information. This folder will contain the translation files/directories for each language and a `languages.xml` file.
+
+The language configuration file `languages.xml` defines the path to the available laguages translations in the profile. It can also define a default translation file/directory in case the translation for the current application language is not found. If no default translation path is provided and the current system language is not found in the available profile languages, no translations will be loaded and archetype string will be used as they are written in the XML files. Example of `languages.xml` file:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<languages default="en_us.yaml">
+    <language key="en_US" path="en_us.yaml" />
+    <language key="es_ES" path="es_es.yaml" />
+</languages>
+```
+
+Path attribute can be either a file (yml or yaml) or a directory that contains multiple files (nested subdirectories are allowed).]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

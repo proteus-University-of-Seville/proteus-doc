@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="JHnpuVLu8G9g" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+<object id="5SZdRf7NM2th" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[File content]]></stringProperty>
-    <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-04-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
     <markdownProperty name="text" category="details"><![CDATA[Multiples files are supported in order to make easier organizing translations. The content of the YAML/YML file must be a simple mapping `code.string:"translation"`.
@@ -22,7 +22,9 @@ These are the predefined codes for each type of archetype translation that the s
   </properties>
   <children/>
   <traces>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </traces>

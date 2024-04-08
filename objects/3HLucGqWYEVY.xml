@@ -5,9 +5,6 @@
   </properties>
   <children/>
   <traces>
-    <traceProperty name="link" category="general" acceptedTargets="paragraph graphic-file external-resource meeting organization stakeholder actor constraint functional-requirement non-functional-requirement objective use-case" traceType=":Proteus-dependency">
-      <trace target="JHnpuVLu8G9g" traceType=":Proteus-dependency"/>
-      <trace target="ebhA7SjWXxWC" traceType=":Proteus-dependency"/>
-    </traceProperty>
+    <traceProperty name="link" category="general" acceptedTargets="paragraph graphic-file external-resource meeting organization stakeholder actor constraint functional-requirement non-functional-requirement objective use-case" traceType=":Proteus-dependency"/>
   </traces>
 </object>

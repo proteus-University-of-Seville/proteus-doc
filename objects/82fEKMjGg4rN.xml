@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="82fEKMjGg4rN" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Including icons]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Profiles may add custom icons for their plugins and archetypes. An icons directory must be created and specified in the profile.ini file. Inside this directory include an icons.xml file.
+
+`icons.xml` file must contain the following content:
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+<icons>
+    <type name="document"/>
+    <type name="profile"/>
+    <type name="archetype"/>
+    <type name="app"/>
+    <type name="main_menu"/>
+</icons>
+```
+
+These are the valid icons type (`ProteusIconType`). Each new icon must be added as a child tag of the desire icon type using the following syntax: 
+``` xml
+<icon key="new-file" file="main_menu/new-file-button.png"/>
+```
+File attribute is the path (relative to the icons directory) where the icon is located. Key is the string used to retrieve the icon, it is case sensitive. Default icon for each icon type can be added using the following syntax:
+``` xml
+<type name="archetype" default="default-archetype.png"/>
+```
+
+Profile icons will override system loaded icons if key (or default) is repeated for the same type.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource glossary-item" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

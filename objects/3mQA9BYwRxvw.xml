@@ -9,24 +9,23 @@
 
 - `pyinstaller --onefile -n "Proteus" --add-data "proteus.ini;." .\proteus\__main__.py`
 
-This command will also include `proteus.ini` file as dependency. Once the spec file is created, `archetypes` and `resources` directories must be added manually  editing the spec file. This is caused due to `data` field and `--add-data` argument ignore subdirectories structure, they just recollect information about files inside the given folder (not recursive). Modify the spec folder to add the following lines:
+This command will also include `proteus.ini` file as dependency. Once the spec file is created, `profiles` and `resources` directories must be added manually  editing the spec file. This is caused due to `data` field and `--add-data` argument ignore subdirectories structure, they just recollect information about files inside the given folder (not recursive). Modify the spec folder to add the following lines:
 
-``` html
+``` python
 Tree('resources', prefix='resources'),
-Tree('archetypes', prefix='archetypes'),
-Tree('plugins', prefix='plugins'),
+Tree('profiles', prefix='profiles'),
 ```
 
 These lines must be placed in:
 
-``` html
+``` python
 ...
 exe = EXE(
     pyz,
     a.scripts,
     a.binaries,
     Tree('resources', prefix='resources'),
-    Tree('archetypes', prefix='archetypes'),
+    Tree('profiles', prefix='profiles'),
     Tree('plugins', prefix='plugins'),
     a.zipfiles,
     a.datas,

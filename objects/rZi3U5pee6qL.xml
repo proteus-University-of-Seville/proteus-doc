@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="rZi3U5pee6qL" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[QWebChannel classes]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    <markdownProperty name="text" category="details"><![CDATA[QWebChannel classes allows to run Python code from QWebEngine (views javascript). This can be used to enhance user interaction with a view (example: open edit dialog on double click).
+
+QWebChannel classes must inherit from Qt's QObject class. It is recommended to inherit from `ProteusComponen` class, which is already a QObject and provides access to the application controller interface.
+
+Example of QWebChannel class registration:
+``` python
+def register(register_xslt_function, register_qwebchannel_class, register_proteus_component):
+
+    # Document Interactions
+    register_qwebchannel_class("documentInteractions", DocumentInteractions)
+```
+
+QWebChannel class code:
+
+``` python
+class DocumentInteractions(ProteusComponent):
+    """
+    Document interactions class for the REMUS plugin. Implements slots that
+    are used by the document html view to handle user interactions.
+    """
+
+    @pyqtSlot(str)
+    def open_properties_dialog(self, id: str) -> None:
+        """
+        Open the edit properties dialog for the given object id
+        :param id: object id
+        """
+	
+        # Omitted error handling	
+
+        # Create the dialog
+        PropertyDialog.create_dialog(self._controller, proteus_id)
+```
+
+View's javascript code that will be run by QWebEngine:
+``` javascript
+
+var documentInteractions = null;
+
+function loadWebChannel() {
+    try {
+        new QWebChannel(qt.webChannelTransport, function (channel) {
+            documentInteractions = channel.objects.documentInteractions;
+            console.log("QWebChannel loaded.")
+        });
+    } catch (error) {
+        console.error(error.message);
+    }
+}
+
+function propertiesDialog(id, event) {
+    if (id == "" || id == null) {
+        console.log("Doubleclicked on a symbolic linked object with empty Id, propagating event to parent.");
+    } else {
+        console.log("Doubleclicked on element with Id " + id)
+        documentInteractions.open_properties_dialog(id);
+        event.stopPropagation();
+    }
+}
+```
+
+QWebChannel script must be added in the HTML body in other to be able to load QWebChannel classes in javascript. Include the following line in the HTML body in your XSL file.
+
+``` html
+<script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+```
+
+Read more about QWebChannel usage in [Qt's oficial QWebChannel documentation](https://doc.qt.io/qt-6/qtwebchannel-javascript.html).]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>
