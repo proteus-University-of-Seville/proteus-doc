@@ -1,11 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <object id="34TXoBhtW6nu" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[TBD]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Application views are transformations of the project XML using XSLT language. Views can be internationalized.
+
+XSLT files for each view are stored in the `xslt_directory` directory in each profile. Check the `profile.ini` configuration file to see the folder path. Inside the `xslt_directory` there is a folder for each view (its template).
+
+Each view directory contains its XSL files and a `template
+.xml` configuration file. This XML file is used to define the template entrypoints and dependencies. Views may depend on plugins and have different entrypoints for each language.  An entrypoint is the main XSL file that handle the dependencies between all the XSL files.
+
+Example of `template.xml`:
+``` xml
+<?xml version='1.0' encoding='UTF-8'?>
+<template name="remus">
+    <entryPoints default="PROTEUS_lang_en_US.xsl">
+        <entryPoint language="en_US" file="PROTEUS_lang_en_US.xsl"/>
+        <entryPoint language="es_ES" file="PROTEUS_lang_es_ES.xsl"/>
+    </entryPoints>
+    <dependencies>
+        <pluginDependency name="remus"/>
+        <pluginDependency name="basics"/>
+    </dependencies>
+</template>
+```
+
+Default entrypoint is mandatory. It will be loaded if the system language is not found in the template's entrypoints.
+]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

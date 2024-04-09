@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="oEsUfXjQx4Ai" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Adding views]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-04-09</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Profiles may contain multiples templates (views). They are located in the profile's `xslt_directory`. This directory is mandatory to be configured in the `profile.ini` file. Check the "Add XSLT templates" for more information about adding views.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource glossary-item" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

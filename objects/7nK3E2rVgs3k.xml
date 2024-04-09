@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7nK3E2rVgs3k" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Translations]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-04-09</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="text" category="details"><![CDATA[Translating XSLT static string can be done creating multiple XSL files that define all the static string as variables. Create a file for each language, then create an entrypoint for each language where the specific XSL translations file for that language is imported.
+
+Fragment of `PROTEUS_i18n_English.xsl`:
+``` xml
+<xsl:variable name="proteus:lang_action">Action</xsl:variable>
+<xsl:variable name="proteus:lang_address">Address</xsl:variable>
+<xsl:variable name="proteus:lang_alternatives">Alternatives</xsl:variable>
+<xsl:variable name="proteus:lang_analysis">Analysis</xsl:variable>
+<xsl:variable name="proteus:lang_attenders">Attenders</xsl:variable>
+<xsl:variable name="proteus:lang_attribute">Attribute</xsl:variable>
+```
+
+Entrypoint file `PROTEUS_lang_en_US.xsl`:
+``` xml
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:proteus="http://proteus.us.es"
+    xmlns:proteus-utils="http://proteus.us.es/utils"
+    exclude-result-prefixes="proteus proteus-utils"
+>
+
+	<!-- Import default localized strings -->
+
+	<xsl:import href="PROTEUS_i18n_English.xsl"/>
+
+	<!-- Include main XSLT file  -->
+
+	<xsl:include href="PROTEUS_main.xsl"/>
+
+</xsl:stylesheet>
+```]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource glossary-item" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>
