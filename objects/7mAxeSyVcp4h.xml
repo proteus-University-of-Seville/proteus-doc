@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7mAxeSyVcp4h" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Adding spellchecking dictionaries]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-06-07</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="text" category="details"><![CDATA[To make sure spell checking works in the packed application we must add 'PySpellchecker' dictionaries in the correct directory. Create the following folder structure and put the dictionaries inside `spellchecker/resources/`.
+
+Dictionaries can be found in the library installation directory (if installed in a virtual environment `venv/Lib/site-packages/spellchecker/resources/`).
+
+Make sure to include this folder structure in the `Proteus.spec` file like profiles and resources adding the following line `Tree('spellchecker', prefix='spellchecker')`.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource glossary-item" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

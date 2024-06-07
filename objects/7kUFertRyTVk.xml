@@ -5,7 +5,7 @@
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[Translations are stored in the i18n directory inside the system resources directory. There is a language configuration file `languages.xml` that defines the path for each language key and the default language path.
+    <markdownProperty name="text" category="details"><![CDATA[Translations are stored in the i18n directory inside the system resources directory. There is a language configuration file `languages.xml` that defines the path for each language key and the default language path. Profiles may have their own translations directory that can be loaded to extend the application translations, it will override repeated strings.
 
 Language path may be a YAML file or a directory that contains multiple YAML files (included nested folders and both `yml` and `yaml` file extensions).
 

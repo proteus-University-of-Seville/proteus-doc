@@ -26,7 +26,6 @@ exe = EXE(
     a.binaries,
     Tree('resources', prefix='resources'),
     Tree('profiles', prefix='profiles'),
-    Tree('plugins', prefix='plugins'),
     a.zipfiles,
     a.datas,
     [],

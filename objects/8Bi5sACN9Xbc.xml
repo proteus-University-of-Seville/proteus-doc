@@ -32,6 +32,7 @@ Inside *properties* each property type has its own tag. Every property has the f
 - 'category': Category of the trace.
 - 'acceptedTargets': Element classes accepted as targets for the trace.
 - 'traceType': Type of the trace (author, information source, etc).
+- 'maxTargetsNumber' **(optional)**: Number of targets that can be selected at the same time. 
 
 There is a *target* tag with the *id* and *traceType* attribute for each target inside *traceProperty* tag.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>

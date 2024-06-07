@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project id="empty-project">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Proteus 1.0]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Proteus 2.0]]></stringProperty>
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <markdownProperty name="description" category="details"><![CDATA[]]></markdownProperty>

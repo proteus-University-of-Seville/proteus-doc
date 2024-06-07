@@ -5,7 +5,7 @@
     <dateProperty name=":Proteus-date" category="general">2024-01-11</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
-    <markdownProperty name="text" category="details"><![CDATA[XSLT templates are stored in the _xslt_ directory inside the system resources directory. Every template has its own folder that constains the XSL files and a _template.xml_ file.
+    <markdownProperty name="text" category="details"><![CDATA[XSLT templates are stored in the _xslt_ directory inside the profile directory (this can ba changed in the profile configuration file). Every template has its own folder that constains the XSL files and a _template.xml_ file.
 
 The template XML file defines basic template configuration. It contains information about the template entry point (main XSL file), dependencies and template name.
 
