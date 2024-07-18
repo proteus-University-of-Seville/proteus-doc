@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7x8Mj45RRXMy" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Details on index calculation]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-07-18</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="text" category="details"><![CDATA[`DocumentTree` class is responsible for managing the document objects tree of a document. That class reacts to each app event in order to update the tree. These changes are done focusing just in the objects that are directly affected by the change itself. `DocumentTree` get this data from the event. An event is called for the modified object and affected traces if necessary.
+
+When it comes to section indexes, a simple add, delete, modification, position change might affect all the sections in the document (all indentation levels). If we keep the same approach that was being used; if an action affects a section object, we will have to trigger an update event for every section in that document. Once the event for each section is called, we would calculate the index for each section based on its position.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource glossary-item" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

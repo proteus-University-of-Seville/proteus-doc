@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4vKNE2FDtntB" classes="software-requirement functional-requirement" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[FRQ-]]></prefix><number>007</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Children sorting]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-07-18</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="description" category="details"><![CDATA[System should allow users to sort objects children by their name (alphabetically and inverse).]]></markdownProperty>
+    <enumProperty name="importance" category="priority" choices="nd vital important">nd</enumProperty>
+    <enumProperty name="urgency" category="priority" choices="nd immediately pressure">nd</enumProperty>
+    <enumProperty name="development-status" category="priority" choices="nd developing pending">nd</enumProperty>
+    <enumProperty name="stability" category="priority" choices="nd low medium high">nd</enumProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
+    </traceProperty>
+  </traces>
+</object>
