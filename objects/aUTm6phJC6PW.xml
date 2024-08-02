@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="aUTm6phJC6PW" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Clipboard]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-07-31</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="text" category="details"><![CDATA[In order to implement cut/copy/paste, a clipboard class was created to handle all the operations.
+
+At first, Qt clipboard was used. It uses the system clipboard to store content. It was decided not to use the system clipboard because:
+
+- Objects ID (ProteusID are used as clipboard content to allow cut/copy/operations. This content is irrelevant to the average user and might be confusing replacing users clipboard content with a ProteuID
+- Ignoring the system clipboard makes easier the content handling and validation. KeyEvents and other events are handle in each specific widget if necessary.
+
+The created class `Clipboard` is somewhere between a frontend and an application layer component. If it was created as a frontend `ProteusComponent` it would be harder to deal with circular dependencies and clipboard access across all frontend component (where the clipboard will be mostly accessed from), in the other hand making it a singleton adds the complexity of handling with the controller dependency injection when it is instantiated.
+
+It was implement as a singleton and placed in the application layer. It is instantiated separately from everything else when the application boots in `app.py` and the controller is provided as dependency. The clipboard uses the state manager and the controller so it can be completely independent from any other resource when performing cut/copy/paste operations. This makes possible calling these clipboard methods from anywhere in the application.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource glossary-item" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

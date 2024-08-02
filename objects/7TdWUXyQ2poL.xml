@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7TdWUXyQ2poL" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Problem with appendix archetype]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-07-31</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="text" category="details"><![CDATA[An appendix is an object that only makes sense as a document child. This can be interpreted as appendix not being part of these "first level archetypes" set and delegating its existence to the document context menu.
+
+This has two main problem:
+- Including appendix archetype in document context menu will require to modify document archetype so it explicitly accepts `appendix` class as child.
+- It breaks the psychological barrier of the document being the parent of all core/basic archetypes of the current archetype repository.
+
+The first problem is easily fixable, the second problem is more a conceptual decision that a problem itself.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+  <traces>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource glossary-item" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </traces>
+</object>

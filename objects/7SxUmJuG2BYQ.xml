@@ -2,10 +2,10 @@
 <object id="7SxUmJuG2BYQ" classes="software-requirement functional-requirement" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[FRQ-]]></prefix><number>008</number><suffix><![CDATA[]]></suffix></codeProperty>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Object copy/paste]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Object cut/copy/paste]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-07-18</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <markdownProperty name="description" category="details"><![CDATA[System should allow users to copy any object (excluding documents) and paste it in a parent that accept it.]]></markdownProperty>
+    <markdownProperty name="description" category="details"><![CDATA[System should allow users to cut or copy any object (excluding documents) and paste it in a parent that accept it.]]></markdownProperty>
     <enumProperty name="importance" category="priority" choices="nd vital important">nd</enumProperty>
     <enumProperty name="urgency" category="priority" choices="nd immediately pressure">nd</enumProperty>
     <enumProperty name="development-status" category="priority" choices="nd developing pending">nd</enumProperty>
