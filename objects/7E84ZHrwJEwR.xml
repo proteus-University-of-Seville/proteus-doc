@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Components]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-11</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[System GUI components follow a hierarchical structure. The main component **MainWindow** is created when the application boots, all the other components are created from the main component.
 
 A component can be a part of the main application window (menu, tab, etc), a dialog or just a background component that does not interact with the user but perform background operations. Components inherit from **ProteusComponent** class, if needed they will inherit from the specific **QWidget** class. **ProteusComponent** class inherit from **QObject**. The class constructor provide the object instance access to multiple application layer objects that are neccesary to interact with the other components and the backend.]]></markdownProperty>

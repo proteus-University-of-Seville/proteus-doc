@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-11</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Business logic is implemented in services and model/repositories.
 
 The model/repositories help parsing information from the project files and storing them in the application cache. In the model there are method to manipulate objects and projects within their context (clone, save, add child, set property, etc). Object and Project children are lazy loaded to prevent excesive memory usage because large archetypes loading.

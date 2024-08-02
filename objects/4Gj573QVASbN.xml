@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Children]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[If you want to add children to the archetype or have nested children, you must create an XML file for every object. Add child to an object using the following syntax `<child id="5CpGMmY8bNrp"/>` inside the children tag, where `id` is the object identifier. Example archetype:
 
 ```
@@ -12,7 +12,7 @@
 <object id="5Xvf87GNZw2U" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general">Necesidades de negocio</stringProperty>
-    <booleanProperty name="is-appendix" category="general" tooltip="is-appendix">false</booleanProperty>
+    
     <markdownProperty name="comments" category="general"></markdownProperty>
   </properties>
   <children>

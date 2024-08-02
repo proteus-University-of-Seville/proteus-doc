@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[A project has can contain child objects, which in turn can contain more child objects and so on recursively. When we talk about loading a project from disk it is necessary to load the entire project to display the information to the user, we can also allow the initial load to take at least a couple of seconds. However for archetypes this can be a problem. Archetypes, although cached after the first load, are accessed when opening forms and accessing the menu. If the application had many model archetypes it could be an excessive load on the application memory, likewise if they were not cached it would be an excessive load time each time the menu is changed.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

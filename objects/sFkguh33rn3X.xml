@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Test coverage report]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-29</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Proteus uses pytest as testing framework. Test coverage report can be generated using `pytest-cov` tool. Use the following commands:
 
 - `pytest --cov` generates test coverage report and show it in the command line interface.

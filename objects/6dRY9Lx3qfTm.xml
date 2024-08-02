@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Example file]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Here it is an example of a translation file in an archetype repository:
 
 ```

@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Second solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-01</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[In order to solve all the problem mentioned above the following decision was taken. Events are managed as indepent classes. Each class will have a method to notify and connect to the event, following the classic observer design pattern. Event classes could be implemented in many ways althought there is a recomended was to ensure code readbility.
 
 All events inherit from an abstract class **ProteusEvent**. This class implements the singleton pattern and defines notify and connect abstract methods. The event subclasses implements those abstract methods, which act like wrappers for the PyQt signal methods that the event subclass contains as a class variable. 'Wrapping' the PyQt signal methods allows type hinting notify and connect methods in a more verbose way than standart PyQt signal ones.]]></markdownProperty>

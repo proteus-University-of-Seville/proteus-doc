@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[All the data in the archetypes XML files will be displayed at is was written (case sensitive). Although, it is possible to internationalize some basic information about your archetype so people around the world can interact with them easier.
 
 This archetype data can be translated:

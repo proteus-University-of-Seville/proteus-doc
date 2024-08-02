@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Types]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[There are multiple possible properties types predefined by the system. These properties types may be combine in order to create an archetype according to your problem model. All property types share some attributes:
 
 - `name`: Property name, it is translated. Must be unique within the archetype.

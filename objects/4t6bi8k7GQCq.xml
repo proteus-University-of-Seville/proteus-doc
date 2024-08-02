@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-24</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[In this section it will be explain how to create a project archetype inside an existing archetype repository, to learn about archetype repository creation and structure check the section 'Create an archetype repository'. Specific information about adding properties and traces can be found in their sections.
 
 Projects archetypes are just projects where the `proteus.xml` file is named after `project.xml`. In order to create a project archetype, the best option is to create a project using Proteus and modify to obtain the desired structure. Once the archetype is finished, change `proteus.xml` name to `project.xml` and copy project folder to repository projects directory.]]></markdownProperty>

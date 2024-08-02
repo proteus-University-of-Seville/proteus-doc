@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[It is possible to add custom translations to all the data from the archetype repository that will be displayed (excluding properties values that are not enumerate choices).
 
 In order to add custom translations go to the existing i18n directory in the profile directory, check profile translations guide for more information. This folder will contain the translation files/directories for each language and a `languages.xml` file.

@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Problem]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[An example of the above problem arose when the menu had to be updated depending on which object was selected. The menu and the object tree were in different components and to connect the method to the signal it was necessary to access both instances of the object. In addition, the menu had to be connected to as many object trees as the application had (one per document). This generated a lot of coupling between the components of the user interface.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

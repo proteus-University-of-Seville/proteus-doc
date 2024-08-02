@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-22</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[In order to solve the problems mentioned above, it was decided to implement a local web server to handle local resources requests from **QWebEngine**.
 
 To implement this feature, it was neccesary to create a class to implement **QWebEngineUrlRequestInterceptor**. Two string paths were defined so they can be identified by the request interceptor as local resource requests. They are used to access both templates resources and assets from the current opened project.

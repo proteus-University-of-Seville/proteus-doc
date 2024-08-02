@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Abstract goal description]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[We want to implement a system that simplifies the management of projects and their documents by creating them through archetypes. The objects of the documents will be created through archetypes and dependencies can be defined between them. The system will manage the rendering of the document from templates, which the user can modify, thus focusing the user's effort on writing the content and not allocating effort to the formatting of covers, tables, etc.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

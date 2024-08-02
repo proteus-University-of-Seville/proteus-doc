@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Stylesheet icons]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[There are some icons that are not configured in the `icons.xml` file since there are accessed directly by the Proteus Qt stylesheets. Icons can be accessed from the QSS files using the search path `resources:` that refers to the resources directory. Example of usage:
 
 ```

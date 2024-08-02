@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Application views are transformations of the project XML using XSLT language. Views can be internationalized.
 
 XSLT files for each view are stored in the `xslt_directory` directory in each profile. Check the `profile.ini` configuration file to see the folder path. Inside the `xslt_directory` there is a folder for each view (its template).

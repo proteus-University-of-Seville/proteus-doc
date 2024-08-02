@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Sphinx]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Proteus documentation can be created from docstrings using Sphinx. Sphinx is not present in the requirements text file so it has to be installed using the command `pip install Sphinx`.
 
 Once Sphinx is installed, create a folder named docs (name ignored by `gitignore`).Inside the folder run the command `sphinx-quickstart` in order to create Sphinx files.

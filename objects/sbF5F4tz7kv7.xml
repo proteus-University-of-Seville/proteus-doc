@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Final solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[As final solution the `i18n` directory in the archetypes repository is optional. Translation method from the translator class was change so it can also accept an alternative text as method output if the translation is not found. This allows to keep using descriptive codes to group the translations (`archetype.class.section`, `archetype.prop_name.comments`, etc) without loosing the alternative of not translating the archetypes to show their original strings. This method keyword argument was use in all the translation related to dynamic data (archetypes, languages, views, etc).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

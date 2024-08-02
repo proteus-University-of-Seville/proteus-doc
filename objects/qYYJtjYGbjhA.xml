@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Special conditions]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[- stringProperty named `:Proteus-name`: This will be the name that the system uses to display the element everywhere in the application. **EVERY ARCHETYPE MUST HAVE THIS PROPERTY**
 
 - stringProperty named `:Proteus-acronym`: This acronym will be used as the acronym shown in the document tab. **EVERY DOCUMENT ARCHETYPE MUST HAVE THIS PROPERTY**

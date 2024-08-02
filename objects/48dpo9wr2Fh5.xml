@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[XSLT functions]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Registered XSLT functions are python functions that can be called from XSL stylesheets. These functions will always get XSL 'context' as their first argument. Example of XSLT function:
 
 ``` python

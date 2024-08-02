@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[During the creation of the XSLT templates we initially used the legacy REMUS stylesheets. These files were located on a web server and accessed as an external resource. Other resources such as icons were also accessed. It was decided not to depend on external resources for the correct visualization of the document and thus not to force the user to have an active internet connection.
 
 In order to implement the above decision, file sheets were downloaded and included in the project. A PyQt feature was detected that conflicted with the proposed implementation. The _QWebEnginePage_ class, which is used to load the HTML document, cannot load local and external resources at the same time due to security issues. This problem also affects user-added graphic files (graphic file archetype).]]></markdownProperty>

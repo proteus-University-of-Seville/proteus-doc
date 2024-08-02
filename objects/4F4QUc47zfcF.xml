@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[File example]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[This is a simplified example of a full icons configuration file from Proteus application:
 
 ```

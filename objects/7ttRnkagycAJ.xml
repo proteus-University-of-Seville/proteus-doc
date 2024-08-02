@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Creation steps]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-24</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[- Create an empty folder. The name does not matter, it is recommended to use a name that makes easier to identify the archetype without checking folder files. This will be the archetype folder.
 
 - Inside the archetype folder, create an `objects` folder. This folder will contain all the XML files.

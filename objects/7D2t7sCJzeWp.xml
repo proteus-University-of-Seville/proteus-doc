@@ -2,7 +2,7 @@
 <object id="7D2t7sCJzeWp" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Repository translations]]></stringProperty>
-    <booleanProperty name="is-appendix" category="general" tooltip="is-appendix">false</booleanProperty>
+    
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
   <children>

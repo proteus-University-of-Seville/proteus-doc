@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-11</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Presentation layer is composed by GUI components and the controlller. The graphical user interface has been develop using PyQt6 library, all the GUI component classes are subclasses of PyQt classes.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

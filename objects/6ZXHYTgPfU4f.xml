@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Register function]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Register function takes three arguments that are functions used in the registration process. Use these functions to register the following components:
 
 `register_xslt_function`: Register Python functions that will be accessed in the XSLT files using the prefix `proteus-utils:`

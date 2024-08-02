@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Plugins are python modules or packages that add functionalities to the application. Plugins can enhance user interaction with views and provide new XSLT python functions.
 
 All plugins must implement a `register` function that will be called by the application plugin manager in order to register the plugin. This register function must be accesible from the plugins root package. 

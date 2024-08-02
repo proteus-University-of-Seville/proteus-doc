@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Controller]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-11</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[The controller provides an interface to the GUI components to access different system functionalities. Its implements a command stack in order to allow undo/redo in some user actions. It is responsible for managing services instances and it is where most of the events notifications take place.
 
 Undoable actions are managed using PyQt undo framework. Each undoable action logic is in a class that inherit from **QUndoCommand** and implements its own redo/undo methods. Actions might contain some business logic in order to undo actions restoring the application previous state.]]></markdownProperty>

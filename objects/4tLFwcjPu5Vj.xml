@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Get objects from classes]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-21</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Get objects from classes (`get_objects_from_classes`) is a method from `TraceabilityMatrixHelper` class. It takes a string (classes separated by spaces) and return all the objects from the classes. The returned object are listed in a node-set. This node set has a specific format to make easier parsing from the XSLT template. `object_label` represents the object`s proteus code, if there is no `:Proteus-code` it uses the `:Proteus-name`.
 
 ```

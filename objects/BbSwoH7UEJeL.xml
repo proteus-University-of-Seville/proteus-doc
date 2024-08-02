@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Profile translations]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Profiles may add custom translations for their plugins and archetype strings. An i18n directory must be created and specified in the `profile.ini` file. Inside this directory include a `language.xml` file.
 
 The language configuration file `languages.xml` defines the path to the available laguages translations in the i18n directory. It can also define a default translation file/directory in case the translation for the current application language is not found. If no default translation path is provided and the current system language is not found in the available profile languages, the strings will be presented as they are written. Example of `languages.xml` file:

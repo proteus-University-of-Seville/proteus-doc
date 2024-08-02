@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Objects]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Archetype repository must contain objects archetypes. Create a folder named `objects` inside the archetype repository directory.
 
 This `objects` directory will contain the directories for the different archetype categories. Archetypes are grouped by category, they will be shown in different tabs in the application.

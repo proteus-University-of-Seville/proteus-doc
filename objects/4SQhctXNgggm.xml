@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Rules]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[In order to translate the desired archetypes, look for the languages YAML files in the `i18n` directory, It may be a file or a directory with multiple file for each language. Check how to create an archetype repository section to learn more about language configuration file and translations files.
 
 Once opened/created the translation file (`*.yml` or `*.yaml`), introduce the entry (code.string: "translation") in the desired section. Take in mind that 'string' is the original text written in the XML file, but lowercased and spaces replaced by underscore. If you text contain `:` character, you can wrap you text using '' (Example: `':proteus-name'`).

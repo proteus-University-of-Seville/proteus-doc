@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Observer]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-18</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[It defines a one-to-many dependency so that, when an object changes its state, all objects that depend on it are notified and updated. The pattern has been implemented in the EventManager class, which manages the application events that trigger the update of the user interface. Each component of the interface subscribes its update methods to the various events. Once an event occurs, the subscribed methods are notified and called. A method is provided to de-subscribe all the methods of a component.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

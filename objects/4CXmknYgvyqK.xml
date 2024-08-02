@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Icons are stored in the icons directory inside the system resources directory. Icons may be placed in nested directories inside the icons folder. Profiles may have their own icons directory that can be loaded to extend the application icons pool, it will override repeated icons.
 
 There is a configuration file called `icons.xml` that defines an icon "key" for each icon path. In this file icons are separated by types. There are five possible icon types:

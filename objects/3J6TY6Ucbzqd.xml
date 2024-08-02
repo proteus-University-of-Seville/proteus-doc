@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-29</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[In order to solve the problem mentioned above, it was decided to include archetypes and acronyms icons in the archetypes repository. 
 
 An `icons` folder may be created in the archetypes repository. It is optional. It must follow the same structure as `icons` folder inside application `resources` directory (icons file and `icons.xml`). The only restriction is that the archetypes repository icons XML file can just add acronym and archetypes icons, application icons cannot be added (menu icons, etc).

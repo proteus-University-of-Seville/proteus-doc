@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Check dependency]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-21</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Check dependency (`check_dependency`) is a method from `TraceabilityMatrixHelper` class. It takes a target and source objects identifiers and returns `true` if the source object has any trace of type `:Proteus-dependency` that contains the target object id.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

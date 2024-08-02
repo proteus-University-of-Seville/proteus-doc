@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[File content]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Multiples files are supported in order to make easier organizing translations. The content of the YAML/YML file must be a simple mapping `code.string:"translation"`.
 
 - `string` represents the string written in the XML file lowered and spaces replaced by underscores `_`. If the name contains ':' you can wrap the whole `code.string` around ''.

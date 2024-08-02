@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[QWebChannel classes]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[QWebChannel classes allows to run Python code from QWebEngine (views javascript). This can be used to enhance user interaction with a view (example: open edit dialog on double click).
 
 QWebChannel classes must inherit from Qt's QObject class. It is recommended to inherit from `ProteusComponen` class, which is already a QObject and provides access to the application controller interface.

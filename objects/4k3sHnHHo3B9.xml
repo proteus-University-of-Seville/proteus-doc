@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Description]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-18</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Note how the figure of the object and document are united in the same class "Object" due to their similarity. All the logic shared by **Project** and **Object** is transferred to the **AbstractObject** class. Properties are managed as an additional class, allowing flexibility in the properties that each object or project may have.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

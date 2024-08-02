@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Discarded solutions]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[There were other options that were discarded. It was considered to extend the lazy loading also for the properties, which was discarded because it had no computational impact; once the object file was opened it was better to store the properties that were needed later. The possibility of implementing the _Proxy_ design pattern was also considered, but this was discarded because it had no computational advantage over the lazy loading and yet it meant more effort in terms of design and implementation in **EventManager**.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

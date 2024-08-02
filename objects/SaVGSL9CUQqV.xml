@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-04</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[During the development of the XSLT templates, specials needs where found in order to handle complex operations in PROTEUS template (the one that emulate REMUS standart template). These special needs would compromise the 'generic' aproach that the system boost with its dynamic archetypes/templates functionalities. An example of this could be the handling of glossary items (specific remus archetype object) within the document view.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

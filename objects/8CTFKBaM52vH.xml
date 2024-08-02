@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Data layer overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-22</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Stores projects, archetypes repository and XSLT templates. It defines the structure of each element on disk. Everything is stored in the host file system. In future releases it is expected that repository archetypes could be hosted remotely and controlled with a version control system.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

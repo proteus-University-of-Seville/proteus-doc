@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Application layer]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-17</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[Contains classes and code definitions that are used by all layers. Main application layers classes are mostly singleton that can be accessed anywhere in the code. This classes implements the most elemental aspects of the application (state, plugins, events and other management basics). The most important singleton classes are:
 
 - **Config**, configuration class that stores application configuration using **ProfileSettings** and **AppSettings** classes.

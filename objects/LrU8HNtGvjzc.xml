@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Description]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-18</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <booleanProperty name="is-glossary" category="general" tooltip="is-glossary">false</booleanProperty>
+    
     <markdownProperty name="text" category="details"><![CDATA[We can observe in the model the main dynamics of the organization of the application data. Projects contain documents, which are composed of objects, which in turn can have other child objects and so on recursively. It is interpreted as a flexible meta-model since the properties are not fixed, they vary for each project, document and archetype object.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
