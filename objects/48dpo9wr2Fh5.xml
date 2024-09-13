@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[XSLT functions]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Registered XSLT functions are python functions that can be called from XSL stylesheets. These functions will always get XSL 'context' as their first argument. Example of XSLT function:
 
 ``` python
@@ -57,13 +56,11 @@ In the `<xsl:stylesheet/>` declaration, `xmlns:proteus-utils="http://proteus.us.
 
 ```]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

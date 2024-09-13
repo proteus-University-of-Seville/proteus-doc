@@ -6,13 +6,11 @@
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="text" category="details"><![CDATA[Profiles must contain one archetype repository. In order to add an archetype repository just copy the archetype repository folder inside the profile directory. Modify the `profile.ini` file to add the archetype repository folder.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource glossary-item" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

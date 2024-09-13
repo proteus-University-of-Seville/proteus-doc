@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Translations are stored in the i18n directory inside the system resources directory. There is a language configuration file `languages.xml` that defines the path for each language key and the default language path. Profiles may have their own translations directory that can be loaded to extend the application translations, it will override repeated strings.
 
 Language path may be a YAML file or a directory that contains multiple YAML files (included nested folders and both `yml` and `yaml` file extensions).
@@ -28,13 +27,11 @@ delete_document_button.text: "Delete"
 
 Archetype repositories may have their own translations. Archetypes strings are handle in a different way to allow showing the default string in case a valid translation is not found (repository may not be translated or translated in languages not supported by the current application setup). Reference to the manual:]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

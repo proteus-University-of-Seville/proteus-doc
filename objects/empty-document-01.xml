@@ -7,6 +7,12 @@
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <markdownProperty name="description" category="details"><![CDATA[Proteus 1.0: Configurable Structured Document Editor based on Archetypes]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+    <traceProperty name="prepared-for" category="dependencies" acceptedTargets="organization" traceType=":Proteus-dependency">
+      <trace target="4S5yqRiRyCpk" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <traceProperty name="prepared-by" category="dependencies" acceptedTargets="organization" traceType=":Proteus-author">
+      <trace target="4S5yqRiRyCpk" traceType=":Proteus-author"/>
+    </traceProperty>
   </properties>
   <children>
     <child id="5khg8hTBeXoy"/>
@@ -19,12 +25,4 @@
     <child id="3sBYoD4654gL"/>
     <child id="57ZnQXs9qgY5"/>
   </children>
-  <traces>
-    <traceProperty name="prepared-for" category="dependencies" acceptedTargets="organization" traceType=":Proteus-dependency">
-      <trace target="4S5yqRiRyCpk" traceType=":Proteus-dependency"/>
-    </traceProperty>
-    <traceProperty name="prepared-by" category="dependencies" acceptedTargets="organization" traceType=":Proteus-author">
-      <trace target="4S5yqRiRyCpk" traceType=":Proteus-author"/>
-    </traceProperty>
-  </traces>
 </object>

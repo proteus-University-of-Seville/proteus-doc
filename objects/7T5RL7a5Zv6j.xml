@@ -4,16 +4,13 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Second problem]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-02</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[To keep track with the philosophy of the application, the translations in the archetypes repository must be optional. The advance user that wants to create an archetype should not need to create specific translations for the archetypes classes, properties name, etc. The archetype string should be enough in order to show correctly in the application if the user does not want to internationalize them.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-26</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Application views are transformations of the project XML using XSLT language. Views can be internationalized.
 
 XSLT files for each view are stored in the `xslt_directory` directory in each profile. Check the `profile.ini` configuration file to see the folder path. Inside the `xslt_directory` there is a folder for each view (its template).
@@ -30,11 +29,9 @@ Example of `template.xml`:
 Default entrypoint is mandatory. It will be loaded if the system language is not found in the template's entrypoints.
 ]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

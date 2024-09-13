@@ -17,13 +17,6 @@
     <markdownProperty name="precondition" category="conditions"><![CDATA[The project must be open and have unsaved changes.]]></markdownProperty>
     <markdownProperty name="postcondition" category="conditions"><![CDATA[The project must have been saved to disk along with your documents and objects.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[The system must warn the user in case he/she tries to close the application without saving in the project.]]></markdownProperty>
-  </properties>
-  <children>
-    <child id="PB9HvMgkWBmz"/>
-    <child id="7MsTCunHWm6R"/>
-    <child id="7omEL4qQDys8"/>
-  </children>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
@@ -31,5 +24,10 @@
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
       <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
     </traceProperty>
-  </traces>
+  </properties>
+  <children>
+    <child id="PB9HvMgkWBmz"/>
+    <child id="7MsTCunHWm6R"/>
+    <child id="7omEL4qQDys8"/>
+  </children>
 </object>

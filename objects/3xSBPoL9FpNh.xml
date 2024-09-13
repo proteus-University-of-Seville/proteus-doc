@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Introduction]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[In this section it will be explain how to create an object archetype inside an existing archetype repository, to learn about archetype repository creation and structure check the section 'Create an archetype repository'. Specific information about adding properties and traces can be found in their sections.
 
 In order to create an archetype object, it is recommend to copy an existing archetype that is similar to the archetype we want to create. It is possible also to start from an empty XML file using the following code. XML file must be named after the archetype `id`, otherwise it will not work.
@@ -21,11 +20,9 @@ In order to create an archetype object, it is recommend to copy an existing arch
 </object>
 ```]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

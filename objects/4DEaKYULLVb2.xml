@@ -4,18 +4,15 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Goal]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-12</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[This project seeks to develop a new version of REM, maintaining its philosophy of project management but extending its field of application to other professional sectors. The application will be developed from scratch in a different programming language and looking for a modernized aesthetic and greater flexibility when extending or adapting objects, documents and projects.
 
 This new version is a meta-tool, where any professional can add or modify existing templates to adapt them to business needs. All this, combined with a user-friendly concept, means that the application could have a wider market than similar applications.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

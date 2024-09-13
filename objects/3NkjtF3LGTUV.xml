@@ -4,16 +4,13 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[The problems mentioned above, among others, led to the solution finally implemented. It was decided to create a class that stores as variables: the identifier of the current document, the name of the current view and the identifiers of the objects selected in each document (in case there is an object selected). It is implemented as a Singleton, providing a global access point and guaranteeing the single instance. This class implements the basic "set" and "get" methods for each variable in addition to the object 'de-selection' method. These methods also allow the system event handler to be notified of state changes (discussed in the event handling design decision). Additionally, this class was an improvement in terms of user interface design patterns, since it allows to save the selected object in each document giving a sense of stability in the user interaction.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

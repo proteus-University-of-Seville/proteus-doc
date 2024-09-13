@@ -4,18 +4,15 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Presentation layer overview]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-22</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Manage the interaction between the user and the system. Comunicated with the business logic layer using the controller, which acts as an interface for the services in the business logic layer. The controller impements a command stack that stores actions executed in the presentation layer and the application previous data state.
 
 The command stack is defined as part of the presentation layer, though it contains the necessary business logic to revert some user actions. Command stack is also referred as controller.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

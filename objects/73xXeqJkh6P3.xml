@@ -4,16 +4,13 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Image to base64]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-01</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Image to base64 (`image_to_base64`) function take an project asset filename (extension included) as argument and return its base64 representation. This function is useful to embed the images into the HTML but it can increase the XSLT transformation time substantially.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

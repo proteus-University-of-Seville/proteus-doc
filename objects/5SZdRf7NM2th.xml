@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[File content]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Multiples files are supported in order to make easier organizing translations. The content of the YAML/YML file must be a simple mapping `code.string:"translation"`.
 
 - `string` represents the string written in the XML file lowered and spaces replaced by underscores `_`. If the name contains ':' you can wrap the whole `code.string` around ''.
@@ -19,13 +18,11 @@ These are the predefined codes for each type of archetype translation that the s
 - Property tooltips - `archetype.tooltip` (Property tooltip attribute shown in property dialog).
 - enumProperty choices - `archetype.enum_choices` (Property choices attribute shown in property dialog).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

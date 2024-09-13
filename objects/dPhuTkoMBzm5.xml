@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Objects]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Archetype repository must contain objects archetypes. Create a folder named `objects` inside the archetype repository directory.
 
 This `objects` directory will contain the directories for the different archetype categories. Archetypes are grouped by category, they will be shown in different tabs in the application.
@@ -26,13 +25,11 @@ Inside the category directory create an objects folder, assets folder and an `ob
 
 In order to create objects archetypes check the Create archetypes section.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

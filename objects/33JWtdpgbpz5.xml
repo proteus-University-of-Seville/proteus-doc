@@ -7,17 +7,15 @@
     <dateProperty name=":Proteus-date" category="general">2023-12-21</dateProperty>
     <markdownProperty name="description" category="details"><![CDATA[]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children>
-    <child id="68vLXp5DF7Uv"/>
-    <child id="3hSQFMKLxDzf"/>
-  </children>
-  <traces>
     <traceProperty name="prepared-for" category="dependencies" acceptedTargets="organization" traceType=":Proteus-dependency">
       <trace target="4S5yqRiRyCpk" traceType=":Proteus-dependency"/>
     </traceProperty>
     <traceProperty name="prepared-by" category="dependencies" acceptedTargets="organization" traceType=":Proteus-author">
       <trace target="4S5yqRiRyCpk" traceType=":Proteus-author"/>
     </traceProperty>
-  </traces>
+  </properties>
+  <children>
+    <child id="68vLXp5DF7Uv"/>
+    <child id="3hSQFMKLxDzf"/>
+  </children>
 </object>

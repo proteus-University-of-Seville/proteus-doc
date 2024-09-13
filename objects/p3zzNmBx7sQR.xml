@@ -11,14 +11,6 @@
     <enumProperty name="development-status" category="priority" choices="nd developing pending">nd</enumProperty>
     <enumProperty name="stability" category="priority" choices="nd low medium high">nd</enumProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children>
-    <child id="4oTqUNAev86f"/>
-    <child id="YU9cCxzuvF7n"/>
-    <child id="i3JjVapThXyU"/>
-    <child id="8JncarYPFswy"/>
-  </children>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
@@ -26,5 +18,11 @@
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
       <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
     </traceProperty>
-  </traces>
+  </properties>
+  <children>
+    <child id="4oTqUNAev86f"/>
+    <child id="YU9cCxzuvF7n"/>
+    <child id="i3JjVapThXyU"/>
+    <child id="8JncarYPFswy"/>
+  </children>
 </object>

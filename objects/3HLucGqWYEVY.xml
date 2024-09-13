@@ -2,9 +2,7 @@
 <object id="3HLucGqWYEVY" classes="archetype-link" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Archetype translations tutorial]]></stringProperty>
+    <traceProperty name="link" category="general" acceptedTargets="paragraph graphic-file external-resource meeting organization stakeholder actor constraint functional-requirement non-functional-requirement objective use-case" traceType=":Proteus-dependency"/>
   </properties>
   <children/>
-  <traces>
-    <traceProperty name="link" category="general" acceptedTargets="paragraph graphic-file external-resource meeting organization stakeholder actor constraint functional-requirement non-functional-requirement objective use-case" traceType=":Proteus-dependency"/>
-  </traces>
 </object>

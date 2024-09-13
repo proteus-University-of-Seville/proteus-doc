@@ -17,6 +17,13 @@
     <markdownProperty name="precondition" category="conditions"><![CDATA[Project archetypes are known and at least one exists.]]></markdownProperty>
     <markdownProperty name="postcondition" category="conditions"><![CDATA[The project has been created (cloned) in a directory, including all documents and objects owned by the chosen project archetype.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
+    </traceProperty>
   </properties>
   <children>
     <child id="8Eo8JT9F2FW6"/>
@@ -25,13 +32,4 @@
     <child id="65x2TbVHdAKi"/>
     <child id="49iH5DvMbGTb"/>
   </children>
-  <traces>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
-      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
-    </traceProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
-      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
-    </traceProperty>
-  </traces>
 </object>

@@ -4,16 +4,13 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Documents archetypes]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Each document archetype is stored in a directory inside *documents*. Inside its directory there is an *objects* folder, a *document.xml* file and optionally an *assets* directory. The document and its children (if any) are inside the *objects* directory. The file *document.xml* contains the document identifier so it can be found by file name in the *objects* directory.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

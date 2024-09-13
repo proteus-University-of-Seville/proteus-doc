@@ -13,6 +13,13 @@
     <markdownProperty name="precondition" category="conditions"><![CDATA[The document must exist in the project.]]></markdownProperty>
     <markdownProperty name="postcondition" category="conditions"><![CDATA[The system has recursively deleted the document and its objects.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[The deletion is not effective until the project changes are saved (persisted to disk).]]></markdownProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
+    </traceProperty>
   </properties>
   <children>
     <child id="6Vqw4AtVxGyd"/>
@@ -21,13 +28,4 @@
     <child id="7GHcAtvH7Vqh"/>
     <child id="4us8M9G4eyGB"/>
   </children>
-  <traces>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
-      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
-    </traceProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
-      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
-    </traceProperty>
-  </traces>
 </object>

@@ -13,13 +13,6 @@
     <markdownProperty name="precondition" category="conditions"><![CDATA[There must be an open project with at least one document and one object.]]></markdownProperty>
     <markdownProperty name="postcondition" category="conditions"><![CDATA[The object has been created with all its dependencies and placed as a child of the same parent as the original object.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[If the cloned object and its children have dependencies on each other, these references will be updated.]]></markdownProperty>
-  </properties>
-  <children>
-    <child id="3TVLXt5KvP8U"/>
-    <child id="Ha5xaN5NuxFn"/>
-    <child id="4wYtkCNte4SB"/>
-  </children>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
@@ -27,5 +20,10 @@
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
       <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
     </traceProperty>
-  </traces>
+  </properties>
+  <children>
+    <child id="3TVLXt5KvP8U"/>
+    <child id="Ha5xaN5NuxFn"/>
+    <child id="4wYtkCNte4SB"/>
+  </children>
 </object>

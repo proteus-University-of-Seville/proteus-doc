@@ -8,9 +8,6 @@
     <integerProperty name="width" category="general">80</integerProperty>
     <markdownProperty name="description" category="details"><![CDATA[System data model.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
@@ -18,5 +15,6 @@
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
       <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
     </traceProperty>
-  </traces>
+  </properties>
+  <children/>
 </object>

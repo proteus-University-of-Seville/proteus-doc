@@ -13,6 +13,13 @@
     <markdownProperty name="precondition" category="conditions"><![CDATA[The project must be opened by the user.]]></markdownProperty>
     <markdownProperty name="postcondition" category="conditions"><![CDATA[The project properties have been modified.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
+    </traceProperty>
   </properties>
   <children>
     <child id="6NtEuJHtRvj2"/>
@@ -21,13 +28,4 @@
     <child id="7mJt4xKX86UJ"/>
     <child id="6y3yNcbBxkRG"/>
   </children>
-  <traces>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
-      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
-    </traceProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
-      <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
-    </traceProperty>
-  </traces>
 </object>

@@ -8,13 +8,11 @@
 
 When it comes to section indexes, a simple add, delete, modification, position change might affect all the sections in the document (all indentation levels). If we keep the same approach that was being used; if an action affects a section object, we will have to trigger an update event for every section in that document. Once the event for each section is called, we would calculate the index for each section based on its position.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource glossary-item" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

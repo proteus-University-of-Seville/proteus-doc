@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Special conditions]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[- stringProperty named `:Proteus-name`: This will be the name that the system uses to display the element everywhere in the application. **EVERY ARCHETYPE MUST HAVE THIS PROPERTY**
 
 - stringProperty named `:Proteus-acronym`: This acronym will be used as the acronym shown in the document tab. **EVERY DOCUMENT ARCHETYPE MUST HAVE THIS PROPERTY**
@@ -13,13 +12,11 @@
 
 - codeProperty named `:Proteus-code`: This property will auto-increment if value if neccesary. It looks for the higher code with the same prefix and increment it by 1 if the actual number is lower (ignoring suffix).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

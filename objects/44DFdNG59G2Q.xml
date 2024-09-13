@@ -2,11 +2,9 @@
 <object id="44DFdNG59G2Q" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[QWebChannel objects]]></stringProperty>
-    
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="53BYZNWgRisy"/>
   </children>
-  <traces/>
 </object>

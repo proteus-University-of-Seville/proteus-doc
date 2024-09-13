@@ -8,9 +8,7 @@
     <stringProperty name="phone-number" category="details"><![CDATA[]]></stringProperty>
     <stringProperty name="fax" category="details"><![CDATA[]]></stringProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
   </properties>
   <children/>
-  <traces>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
-  </traces>
 </object>

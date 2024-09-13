@@ -2,7 +2,6 @@
 <object id="7fdyjukDi6Cu" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[XSLT functions]]></stringProperty>
-    
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
@@ -10,5 +9,4 @@
     <child id="73xXeqJkh6P3"/>
     <child id="6FHykzp2zvUx"/>
   </children>
-  <traces/>
 </object>

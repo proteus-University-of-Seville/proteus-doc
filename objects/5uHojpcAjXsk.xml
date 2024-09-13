@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Add custom icons]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[It is possible to add custom icons for the repository archetype classes or modify application default icons. Document icons in document tabs can also be added so they change for specific document acronyms.
 
 In order to add custom icons, go to the icons folder in the profile directory. Check profile creation guide for more information. Inside this folder modify/add the following content in `icons.xml` file.
@@ -44,13 +43,11 @@ In the following file example we have added a new document icon for '_RBOOK_' th
 </icons>
 ```]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

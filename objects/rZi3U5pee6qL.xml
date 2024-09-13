@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[QWebChannel classes]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[QWebChannel classes allows to run Python code from QWebEngine (views javascript). This can be used to enhance user interaction with a view (example: open edit dialog on double click).
 
 QWebChannel classes must inherit from Qt's QObject class. It is recommended to inherit from `ProteusComponen` class, which is already a QObject and provides access to the application controller interface.
@@ -74,13 +73,11 @@ QWebChannel script must be added in the HTML body in other to be able to load QW
 
 Read more about QWebChannel usage in [Qt's oficial QWebChannel documentation](https://doc.qt.io/qt-6/qtwebchannel-javascript.html).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-29</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[In order to solve the problem mentioned above, it was decided to include archetypes and acronyms icons in the archetypes repository. 
 
 An `icons` folder may be created in the archetypes repository. It is optional. It must follow the same structure as `icons` folder inside application `resources` directory (icons file and `icons.xml`). The only restriction is that the archetypes repository icons XML file can just add acronym and archetypes icons, application icons cannot be added (menu icons, etc).
@@ -13,13 +12,11 @@ Application icons XML file still defines default icons for archetype and acronym
 
 In the future, plugins may have their own resources separately.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

@@ -2,12 +2,10 @@
 <object id="6966cNpHrjf5" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[User interface structure]]></stringProperty>
-    
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="LpHMQJnH7VGF"/>
     <child id="gESvXJcGgT2P"/>
   </children>
-  <traces/>
 </object>

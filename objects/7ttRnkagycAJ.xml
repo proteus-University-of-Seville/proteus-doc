@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Creation steps]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-24</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[- Create an empty folder. The name does not matter, it is recommended to use a name that makes easier to identify the archetype without checking folder files. This will be the archetype folder.
 
 - Inside the archetype folder, create an `objects` folder. This folder will contain all the XML files.
@@ -22,13 +21,11 @@
 
 - Acronym icon **OPTIONAL**. Acronym icon is defined by its stringProperty named `:Proteus-acronym` value. It will be updated when the property is updated in the application, you can add multiple acronym icons but the user will not know they can be set unless the user check the `icons.xml`. You can add icons using the following syntax `<icon key="DOC" file="doc-acronym-icon.png" />`, where key is the acronym string class and file is the file name/extension of the icon located in the repository icons directory. ]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

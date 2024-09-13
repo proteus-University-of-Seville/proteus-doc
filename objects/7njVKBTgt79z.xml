@@ -4,18 +4,15 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Solution]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-04</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[In order to fullfil the special needs that might have some templates, a basic plugin architecture was implemented.
 
 A plugins package was created inside the application main package, this was decided because plugins will usually be heavily tied with the system code base.
 
 Plugins must implement a 'register' function (see **PluginInterface**) that register plugin's XSLT functions and QWebChannel objects. These elements will be loaded when the application boots. In the future plugins will be able to handle their own resources (images, translations, etc) and use a configuration file.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

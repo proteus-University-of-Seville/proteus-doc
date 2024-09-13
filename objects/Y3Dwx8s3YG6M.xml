@@ -13,13 +13,6 @@
     <markdownProperty name="precondition" category="conditions"><![CDATA[There must be an open project with at least two documents.]]></markdownProperty>
     <markdownProperty name="postcondition" category="conditions"><![CDATA[The document has updated its position in the project.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[The order is edited by dragging the document to the desired position.]]></markdownProperty>
-  </properties>
-  <children>
-    <child id="4CDeu9Rk3RN8"/>
-    <child id="56wwGxbPdhMK"/>
-    <child id="8E7k2US4ZAvd"/>
-  </children>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
@@ -27,5 +20,10 @@
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
       <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
     </traceProperty>
-  </traces>
+  </properties>
+  <children>
+    <child id="4CDeu9Rk3RN8"/>
+    <child id="56wwGxbPdhMK"/>
+    <child id="8E7k2US4ZAvd"/>
+  </children>
 </object>

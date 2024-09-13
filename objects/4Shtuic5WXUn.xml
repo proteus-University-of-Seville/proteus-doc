@@ -7,14 +7,12 @@
     <stringProperty name="role" category="details"><![CDATA[Software engineer]]></stringProperty>
     <enumProperty name="category" category="details" choices="nd customer developer user">developer</enumProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="works-for" category="details" acceptedTargets="organization" traceType=":Proteus-works-for">
       <trace target="4S5yqRiRyCpk" traceType=":Proteus-works-for"/>
     </traceProperty>
-  </traces>
+  </properties>
+  <children/>
 </object>

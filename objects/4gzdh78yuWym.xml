@@ -4,14 +4,11 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Glossary handler class]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-01</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Glossary handler class (`glossaryHandler`) gives support to the `glossary_highlight` XSLT function to improve performance. `glossary_highlight` is an static method of `GlossaryHandler` class. The class stores multiple information as class variables. It subscribe multiple methods to events like `AddObjectEvent`, `DeleteObjectEvent`, etc. These methods updates the information about glossary items in the project, descriptions and the matching pattern to save computational time once the static method is called during the transformation.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

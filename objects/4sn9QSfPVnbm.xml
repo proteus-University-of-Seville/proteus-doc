@@ -13,13 +13,6 @@
     <markdownProperty name="precondition" category="conditions"><![CDATA[There must be an open project with at least one document and one item selected.]]></markdownProperty>
     <markdownProperty name="postcondition" category="conditions"><![CDATA[The object has been created with all its dependencies and placed as a child of the last selected object.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[The system must warn the user graphically whether it is possible to clone an object archetype once the target parent object has been selected.]]></markdownProperty>
-  </properties>
-  <children>
-    <child id="MgG4w73isDaa"/>
-    <child id="RajYYT9Pwu9Y"/>
-    <child id="4Xqpr2pnsrxZ"/>
-  </children>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
@@ -27,5 +20,10 @@
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
       <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
     </traceProperty>
-  </traces>
+  </properties>
+  <children>
+    <child id="MgG4w73isDaa"/>
+    <child id="RajYYT9Pwu9Y"/>
+    <child id="4Xqpr2pnsrxZ"/>
+  </children>
 </object>

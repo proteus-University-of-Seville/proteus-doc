@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Include files in the repository]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-23</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Once the archetype file is completed including properties and traces, it can be copied to the archetype repository. Go to the archetype repository and open 'objects' folder. Inside objects archetype folder there will be one or multiple folder with the name format 'XX_name' (where XX is a natural number). Select a category (folder) where the archetype will be included. Once the folder is chosen, you must follow these steps:
 
 - Include the archetype XML file into the 'objects' directory inside the category directory. File name must be the archetype id. If the archetype has children, copy all the files to the same directory (including nested). Example: `repository>objects>00_general>object>example-archetype.xml`
@@ -35,11 +34,9 @@
 </icons>
 ```]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Profile translations]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-02-05</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Profiles may add custom translations for their plugins and archetype strings. An i18n directory must be created and specified in the `profile.ini` file. Inside this directory include a `language.xml` file.
 
 The language configuration file `languages.xml` defines the path to the available laguages translations in the i18n directory. It can also define a default translation file/directory in case the translation for the current application language is not found. If no default translation path is provided and the current system language is not found in the available profile languages, the strings will be presented as they are written. Example of `languages.xml` file:
@@ -19,13 +18,11 @@ The language configuration file `languages.xml` defines the path to the availabl
 
 Path attribute can be either a file (yml or yaml) or a directory that contains multiple files (nested subdirectories are allowed).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

@@ -4,7 +4,6 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[First solution and its problems]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2023-12-19</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[For the graphic files, it was decided to convert them to base64 and insert them into the HTML itself. Regarding the style sheets, the possibility of including it with the style tag was considered, which was completely discarded since by introducing all the styles in the tag it exceeded the style limit that the browser can process from style tags. Stylesheets stayed as external resources, javascript scripts were included using *script* tag.
 
 This solution led to three main problems that affect user experience:
@@ -13,13 +12,11 @@ This solution led to three main problems that affect user experience:
 - Base64 conversion increase the XSLT render process dramatically. Single image need around 20 ms.
 - HTML resource management is unconvenient if styles, javascript and images are embedded.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>

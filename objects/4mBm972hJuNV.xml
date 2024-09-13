@@ -4,16 +4,13 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Objects archetypes]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-01-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    
     <markdownProperty name="text" category="details"><![CDATA[Object archetypes follow an structure similar to document archetypes structure. Archetype groups folders must be named as *XX_group_name* where '*XX*' is a number (00, 01, ... 99) and '*group_name*' is the name of the archetype group. Inside each group folder there is an *objects* folder, a *objects.xml* file and optionally an *assets* directory. The *objects.xml* has all the identifiers of the objects archetypes so they can be distinguished from other  objects that are not archetypes but part of them.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-  <traces>
     <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="paragraph graphic-file external-resource" traceType=":Proteus-dependency"/>
     <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-  </traces>
+  </properties>
+  <children/>
 </object>
