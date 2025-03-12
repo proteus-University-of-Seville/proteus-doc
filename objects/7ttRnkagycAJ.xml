@@ -21,11 +21,11 @@
 
 - Acronym icon **OPTIONAL**. Acronym icon is defined by its stringProperty named `:Proteus-acronym` value. It will be updated when the property is updated in the application, you can add multiple acronym icons but the user will not know they can be set unless the user check the `icons.xml`. You can add icons using the following syntax `<icon key="DOC" file="doc-acronym-icon.png" />`, where key is the acronym string class and file is the file name/extension of the icon located in the repository icons directory. ]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </properties>
   <children/>
 </object>

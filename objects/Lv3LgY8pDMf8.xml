@@ -6,11 +6,11 @@
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="text" category="details"><![CDATA[A first solution was implemented, it was decided to create a class that would implement the observer pattern and serve as the application's event manager. Some base events were defined as a result of basic user interactions (open project, delete object, etc). PyQt events or "signals" are no longer connected directly to the update methods of each component, these now trigger one or more events as appropriate. It is the responsibility of each component to subscribe one or more methods to one or more events.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </properties>
   <children/>
 </object>

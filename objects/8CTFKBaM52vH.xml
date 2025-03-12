@@ -6,11 +6,11 @@
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="text" category="details"><![CDATA[Stores projects, archetypes repository and XSLT templates. It defines the structure of each element on disk. Everything is stored in the host file system. In future releases it is expected that repository archetypes could be hosted remotely and controlled with a version control system.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </properties>
   <children/>
 </object>

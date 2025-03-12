@@ -6,11 +6,11 @@
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="text" category="details"><![CDATA[It creates new instances of a class from the copy of a prototype instance, which implements a cloning method. This pattern is one of the fundamental parts not only of the business logic of the application, but also of the concept of user interaction. It is implemented by the **Object** and **Project** classes, thus allowing the cloning of objects of an existing project or projects/objects (including documents) archetypes.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </properties>
   <children/>
 </object>

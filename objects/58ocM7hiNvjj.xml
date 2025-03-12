@@ -6,11 +6,11 @@
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="description" category="details"><![CDATA[Prototype of a project, document or object that can be cloned by the user. It is called an archetype rather than a prototype because each is considered an original and primary model for its archetype type. In addition, it is intended to avoid confusion from the user side due to the popular concept of prototype, which is perceived as incomplete or under development.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </properties>
   <children/>
 </object>

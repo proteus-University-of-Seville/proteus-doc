@@ -8,11 +8,11 @@
 
 A component can be a part of the main application window (menu, tab, etc), a dialog or just a background component that does not interact with the user but perform background operations. Components inherit from **ProteusComponent** class, if needed they will inherit from the specific **QWidget** class. **ProteusComponent** class inherit from **QObject**. The class constructor provide the object instance access to multiple application layer objects that are neccesary to interact with the other components and the backend.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </properties>
   <children/>
 </object>

@@ -6,11 +6,11 @@
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="text" category="details"><![CDATA[It was decided to include multiple archetype repositories with the application. Initially, the use may select its own archetype repository to use a different repository to the application's default. Multiple archetype repository built-in allows to distribute the application allowing multiple use cases without forcing the user to download a repository and selecting it.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </properties>
   <children/>
 </object>

@@ -7,11 +7,11 @@
     <markdownProperty name="text" category="details"><![CDATA[In the developed system, the data layer does not make use of any known database technology such as SQL or NoSQL. Data is stored in files on disk and interacted with by means of query and write methods implemented in the model. Transactions never occur in parallel.
 parallel. The data is stored in the program cache as Python objects until the user explicitly decides to persist the data to disk.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </properties>
   <children/>
 </object>

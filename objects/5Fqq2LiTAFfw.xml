@@ -6,16 +6,16 @@
     <dateProperty name=":Proteus-date" category="general">2023-12-14</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="description" category="details"><![CDATA[The system shall allow the user to navigate within the document to a specific object by selecting it in the document object tree.]]></markdownProperty>
-    <enumProperty name="importance" category="priority" choices="nd vital important">nd</enumProperty>
-    <enumProperty name="urgency" category="priority" choices="nd immediately pressure">nd</enumProperty>
-    <enumProperty name="development-status" category="priority" choices="nd developing pending">nd</enumProperty>
-    <enumProperty name="stability" category="priority" choices="nd low medium high">nd</enumProperty>
+    <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
+    <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">tbd</enumProperty>
+    <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
+    <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="software-requirement" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
       <trace target="6yAkF255AzqZ" traceType=":Proteus-information-source"/>
     </traceProperty>
   </properties>

@@ -6,9 +6,9 @@
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="text" category="details"><![CDATA[Glossary handler class (`glossaryHandler`) gives support to the `glossary_highlight` XSLT function to improve performance. `glossary_highlight` is an static method of `GlossaryHandler` class. The class stores multiple information as class variables. It subscribe multiple methods to events like `AddObjectEvent`, `DeleteObjectEvent`, etc. These methods updates the information about glossary items in the project, descriptions and the matching pattern to save computational time once the static method is called during the transformation.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
-    <traceProperty name="source" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
   </properties>
   <children/>
 </object>

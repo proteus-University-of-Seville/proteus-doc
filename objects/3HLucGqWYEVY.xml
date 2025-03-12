@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="3HLucGqWYEVY" classes="archetype-link" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+<object id="3HLucGqWYEVY" classes="symbolic-link" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Archetype translations tutorial]]></stringProperty>
-    <traceProperty name="link" category="general" acceptedTargets="general-traceable-object meeting organization stakeholder actor constraint functional-requirement non-functional-requirement objective use-case" traceType=":Proteus-dependency"/>
+    <traceProperty name="link" category="general" acceptedTargets=":Proteus-any" excludedTargets="section appendix symbolic-link" traceType=":Proteus-link">
+      <trace target="8FWUnmPkjqLP" traceType=":Proteus-link"/>
+      <trace target="4SQhctXNgggm" traceType=":Proteus-link"/>
+      <trace target="4gaxNHZsHGPx" traceType=":Proteus-link"/>
+    </traceProperty>
   </properties>
   <children/>
 </object>
