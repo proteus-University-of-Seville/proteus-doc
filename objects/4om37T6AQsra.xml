@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4om37T6AQsra" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Description]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2025-03-12</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[It was decided to add requirements verification using AI tools (LLM). Since requirements are a concept related to a specific profile, this verification will be added in a profile as a XSLT template (view). So it stays independent from the application core.
+
+The initial approach was to create a plugin that use python to load an AI model that can be called from XSLT or web engine (`QWebChannel`). This presented a few problems:
+
+- Calling an AI model during XSLT rendering will increase HTML generation time to a point which is not acceptable.
+- Some computers may struggle to load a LLM locally for requirement verification.
+- Calling an LLM in Python within the application makes the requirement verification template Proteus dependant (it could not work if exported to HTML).
+
+As a solution to these problems, it was decided to assume that the LLM will be host in a server (remote, local, hosted within a company intranet, etc) and it will be accessed using HTTP request in Javascript. This allows the template to work even if it is exported as HTML (as long as the server is accessible).]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
