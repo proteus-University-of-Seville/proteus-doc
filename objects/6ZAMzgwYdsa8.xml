@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6ZAMzgwYdsa8" classes="glossary-item" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[traceProperty]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2025-04-11</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="description" category="details"><![CDATA[It is used to store reference (identifier) to other object or documents within the project. It has some special **optional** attributes:
+
+- `acceptedTargets`: List of proteus classes that accept as reference. By default its value is `:Proteus-any` (all classes accepted).
+- `excludedTargets`: List of excluded proteus classes for target selection. By default its value is "" (no classes excluded).
+- `traceType`: Type of the trace. By default `:Proteus-dependency`. Other proteus trace types are: `:Proteus-author`, `:Proteus-information-source`, `:Proteus-works-for`, `:Proteus-affected`, `:Proteus-link`.
+- `maxTargetsNumber`: Max number of referenced objects. By default is `-1` (no targets limit).
+
+```
+<traceProperty name="prepared-by" category="dependencies" acceptedTargets="organization" traceType=":Proteus-author"/>
+```
+```
+<traceProperty name="base-type" category="general" acceptedTargets="object-type" traceType=":Proteus-dependency" maxTargetsNumber="1">
+      <trace target="8GuCNMEuJNUL" traceType=":Proteus-dependency"/>
+</traceProperty>
+```]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </properties>
+  <children/>
+</object>

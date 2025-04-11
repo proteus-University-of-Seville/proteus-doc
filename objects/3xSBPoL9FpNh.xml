@@ -15,8 +15,6 @@ In order to create an archetype object, it is recommend to copy an existing arch
   </properties>
   <children>
   </children>
-  <traces>
-  </traces>
 </object>
 ```]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>

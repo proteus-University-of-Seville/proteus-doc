@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="hHGabdEjfULR" classes="glossary-item" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[classListProperty]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2025-04-11</dateProperty>
+    <floatProperty name="version" category="general">1.0</floatProperty>
+    <markdownProperty name="description" category="details"><![CDATA[It is used to store a list of classes. The classes selector does not include archetypes classes, it just shows the classes of objects/documents present in the project.
+```
+<classListProperty name="row-classes" category="detail"/>
+```
+```
+<classListProperty name="row-classes" category="detail">
+    <class>constraint</class>
+    <class>functional-requirement</class>
+    <class>non-functional-requirement</class>
+</classListProperty>
+```]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <traceProperty name="sources" category="dependencies" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+  </properties>
+  <children/>
+</object>

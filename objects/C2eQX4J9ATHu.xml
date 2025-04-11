@@ -6,7 +6,9 @@
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="description" category="details"><![CDATA[Similar to stringProperty but it is used to store large chunks of text. You can preview text by converting Markdown to HTML in the properties dialog. It can be empty but text cannot contain CDATA delimiters inside (nested CDATA sections are not allowed in XML).
 
-`<markdownProperty name="comments">No **comments**.</markdownProperty>` ]]></markdownProperty>
+```
+<markdownProperty name="comments">No **comments**.</markdownProperty>
+``` ]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>

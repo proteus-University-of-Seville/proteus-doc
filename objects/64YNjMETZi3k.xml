@@ -6,7 +6,9 @@
     <floatProperty name="version" category="general">1.0</floatProperty>
     <markdownProperty name="description" category="details"><![CDATA[It is used to store integer data. Value may be empty. The value must be able to be converted to integer, `x` format.
 
-`<integerProperty name="width" tooltip="archetype.tooltip.width-info">20</integerProperty>`]]></markdownProperty>
+```
+<integerProperty name="width" tooltip="archetype.tooltip.width-info">20</integerProperty>
+```]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>

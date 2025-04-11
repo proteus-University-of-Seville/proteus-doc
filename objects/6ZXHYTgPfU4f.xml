@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Register function]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <markdownProperty name="text" category="details"><![CDATA[Register function takes three arguments that are functions used in the registration process. Use these functions to register the following components:
+    <markdownProperty name="text" category="details"><![CDATA[Register function takes four arguments that are functions used in the registration process. Use these functions to register the following components:
 
 `register_xslt_function`: Register Python functions that will be accessed in the XSLT files using the prefix `proteus-utils:`
 
@@ -12,25 +12,42 @@
 
 `register_proteus_component`: Register general purpose `Proteuscomponent` classes.
 
-Example of register function:
-``` python
-from remus.document_interactions import DocumentInteractions
-from remus.glossary_handler import GlossaryHandler
-from remus.traceability_matrix_helper import TraceabilityMatrixHelper
+`register_export_strategy`: Register an export strategy.
 
-def register(register_xslt_function, register_qwebchannel_class, register_proteus_component):
+Example of plugins root package:
+``` python
+from basics.proteus_xslt_basics import generate_markdown, image_to_base64, current_document
+from basics.proteus_xslt_basics import ProteusBasicMethods
+from basics.document_interactions import DocumentInteractions
+from basics.impact_analyzer import ImpactAnalyzer
+from basics.export.export_html import ExportHTML
+from basics.export.export_pdf import ExportPDF
+
+
+
+def register(register_xslt_function, register_qwebchannel_class, register_proteus_component, register_export_strategy):
+
 
     # Document Interactions
     register_qwebchannel_class("documentInteractions", DocumentInteractions)
 
-    # Glossary
-    register_xslt_function("glossary_highlight", GlossaryHandler.highlight_glossary_items)
-    register_proteus_component("glossaryHandler", GlossaryHandler)
 
-    # Traceability Matrix
-    register_proteus_component("traceabilityMatrixHelper", TraceabilityMatrixHelper)
-    register_xslt_function("get_objects_from_classes", TraceabilityMatrixHelper.get_objects_from_classes)
-    register_xslt_function("check_dependency", TraceabilityMatrixHelper.check_dependency)
+    # Impact analyzer
+    register_proteus_component("impactAnalyzer", ImpactAnalyzer, ["_calculate_impact"])
+
+
+    # XSLT basics
+    register_xslt_function("generate_markdown", generate_markdown)
+    register_xslt_function("image_to_base64", image_to_base64)
+    register_xslt_function("current_document", current_document)
+
+
+    register_qwebchannel_class("proteusBasics", ProteusBasicMethods)
+
+
+    # Export strategies
+    register_export_strategy("pdf", ExportPDF)
+    register_export_strategy("html", ExportHTML)
 ```]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">

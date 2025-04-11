@@ -41,7 +41,9 @@ In the following file example we have added a new document icon for '_RBOOK_' th
         <icon key="recipe-step" file="r-step.png" />
     </type>
 </icons>
-```]]></markdownProperty>
+```
+
+Archetypes icons **can be found by default** if they are located in profile icons directory root and they are named `classname.png`, where `classname` is the archetype's main class name.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>

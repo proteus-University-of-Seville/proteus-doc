@@ -1,19 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <object id="qRzSZTd522Dk" classes="paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Built-in profiles]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Profile information]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-09</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <markdownProperty name="text" category="details"><![CDATA[Profiles included in the distributed application may have description and translation. Check `profiles.yaml` file in the `resources/i18n/[your desired language]` directory or simply add it to any YAML file inside the application languages directories. 
+    <markdownProperty name="text" category="details"><![CDATA[Each profile contains its information in the profile ini file. The name, description and icon will be shown in the app settings when the user selects the profile and on the top right corner on the application.
 
-* Translate the profile name following the convention `profile.{profile_name}`. Where `{profile_name}` is the name of the profile folder lowercased and replacing spaces using underscores.
-* Include translated description using `profiles.description.{profile_name}`.
-
-Example from `profiles.yaml`:
-``` yaml
-profiles.ir: "Requirements Engineering subject (IR)"
-profiles.description.ir: "Profile for Requirements Engineering (IR) subject at University of Seville"
-```]]></markdownProperty>
+If no information is provided, a default icon will be used as image and directory name will be the profile name.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
       <trace target="4Shtuic5WXUn" traceType=":Proteus-author"/>

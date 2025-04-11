@@ -9,6 +9,7 @@
 - `name`: Property name, it is translated. Must be unique within the archetype.
 - `category`: Category where the property will be grouped in. It is translated. If not present, default category `general` will be used.
 - `tooltip`: It is shown when hovering over the property in the property dialog. It is translated. If not present, no tooltip will be added.
+- `required`: Can be `true` or `false` to indicate if the property is mandatory. By default its value is `false`.
 - `inmutable`: Can be `true` or `false` to indicate if the property should be edited by the user. This does not prevent property manipulation but warns the user about it. If not present, default value is `false`.
 
 The property value and other additional attributes depends on the specific property type implementation. Here it is the actual Proteus property types list with examples and their special attributes/tags if any:

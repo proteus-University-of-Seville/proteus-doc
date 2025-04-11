@@ -4,7 +4,7 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Plugins]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2024-04-08</dateProperty>
     <floatProperty name="version" category="general">1.0</floatProperty>
-    <markdownProperty name="text" category="details"><![CDATA[Profiles may contain plugins. In order to add plugins to the profile, create an empty folder inside the profile directory and place inside the plugins (python modules/packages that will be imported during runtime.
+    <markdownProperty name="text" category="details"><![CDATA[Profiles may contain plugins. In order to add plugins to the profile, create an empty folder inside the profile directory and place inside the plugins (python modules/packages that will be imported during runtime).
 
 Plugins folder must be specified in the `profile.ini` configuration file. Plugins folder does not need an `__init__.py` file or anything similar in order to work.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>

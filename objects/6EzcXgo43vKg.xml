@@ -13,7 +13,6 @@
     <stringProperty name="name">This is my name</stringProperty>
   </properties>
   <children />
-  <traces />
 </object>
 ```]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>

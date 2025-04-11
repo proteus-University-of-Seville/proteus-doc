@@ -8,10 +8,10 @@
 
 ```
 <codeProperty name=":Proteus-code" category="general" inmutable="true">
-        <prefix>ACT-</prefix>
-        <number>001</number>
-        <suffix></suffix>
-      </codeProperty>
+    <prefix>ACT-</prefix>
+    <number>001</number>
+    <suffix></suffix>
+</codeProperty>
 ```]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
